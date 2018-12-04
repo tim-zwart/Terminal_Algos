@@ -1,1 +1,0 @@
-Powershell.exe scripts\run_match.ps1 algos\starter-algo algos\starter-algo
