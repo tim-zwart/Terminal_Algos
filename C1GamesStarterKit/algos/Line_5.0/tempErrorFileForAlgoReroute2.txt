@@ -1,0 +1,550 @@
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Tried to add filters to multiple locations at point (2, 12)
+Tried to add filters to multiple locations at point (24, 12)
+Tried to add filters to multiple locations at point (23, 11)
+Tried to add filters to multiple locations at point (3, 11)
+New build list made up of:
+A DF at (1, 12)
+A FF at (0, 13)
+A FF at (1, 13)
+A FF at (2, 12)
+New build list made up of:
+A DF at (25, 12)
+A FF at (25, 13)
+A FF at (24, 12)
+New build list made up of:
+A DF at (26, 12)
+A FF at (26, 13)
+A FF at (27, 13)
+New build list made up of:
+A DF at (2, 11)
+A FF at (3, 11)
+New build list made up of:
+A DF at (7, 11)
+A FF at (7, 12)
+A FF at (6, 11)
+A FF at (8, 11)
+New build list made up of:
+A DF at (10, 11)
+A FF at (10, 12)
+A FF at (9, 11)
+A FF at (11, 11)
+New build list made up of:
+A DF at (13, 11)
+A FF at (13, 12)
+A FF at (12, 11)
+A FF at (14, 11)
+New build list made up of:
+A DF at (16, 11)
+A FF at (16, 12)
+A FF at (15, 11)
+A FF at (17, 11)
+New build list made up of:
+A DF at (19, 11)
+A FF at (19, 12)
+A FF at (18, 11)
+A FF at (20, 11)
+New build list made up of:
+A DF at (22, 11)
+A FF at (22, 12)
+A FF at (21, 11)
+A FF at (23, 11)
+New build list made up of:
+A DF at (24, 11)
+New build list made up of:
+A DF at (25, 11)
+New build list made up of:
+A DF at (3, 10)
+New build list made up of:
+A DF at (4, 10)
+New build list made up of:
+A DF at (4, 9)
+New build list made up of:
+A DF at (5, 9)
+New build list made up of:
+A DF at (6, 9)
+New build list made up of:
+A DF at (5, 8)
+New build list made up of:
+A DF at (6, 8)
+New build list made up of:
+A DF at (6, 7)
+New build list made up of:
+A EF at (7, 9)
+New build list made up of:
+A EF at (8, 9)
+New build list made up of:
+A EF at (9, 9)
+New build list made up of:
+A EF at (10, 9)
+New build list made up of:
+A EF at (11, 9)
+New build list made up of:
+A EF at (12, 9)
+New build list made up of:
+A EF at (13, 9)
+New build list made up of:
+A EF at (14, 9)
+New build list made up of:
+A EF at (15, 9)
+New build list made up of:
+A EF at (16, 9)
+New build list made up of:
+A EF at (17, 9)
+New build list made up of:
+A EF at (18, 9)
+New build list made up of:
+A EF at (19, 9)
+New build list made up of:
+A EF at (20, 9)
+New build list made up of:
+A EF at (21, 9)
+New build list made up of:
+A EF at (7, 8)
+New build list made up of:
+A EF at (8, 8)
+New build list made up of:
+A EF at (9, 8)
+New build list made up of:
+A EF at (10, 8)
+New build list made up of:
+A EF at (11, 8)
+New build list made up of:
+A EF at (12, 8)
+New build list made up of:
+A EF at (13, 8)
+New build list made up of:
+A EF at (14, 8)
+New build list made up of:
+A EF at (15, 8)
+New build list made up of:
+A EF at (16, 8)
+New build list made up of:
+A EF at (17, 8)
+New build list made up of:
+A EF at (18, 8)
+New build list made up of:
+A EF at (19, 8)
+New build list made up of:
+A EF at (20, 8)
+New build list made up of:
+A EF at (7, 7)
+New build list made up of:
+A EF at (8, 7)
+New build list made up of:
+A EF at (9, 7)
+New build list made up of:
+A EF at (10, 7)
+New build list made up of:
+A EF at (11, 7)
+New build list made up of:
+A EF at (12, 7)
+New build list made up of:
+A EF at (13, 7)
+New build list made up of:
+A EF at (14, 7)
+New build list made up of:
+A EF at (15, 7)
+New build list made up of:
+A EF at (16, 7)
+New build list made up of:
+A EF at (17, 7)
+New build list made up of:
+A EF at (18, 7)
+New build list made up of:
+A EF at (19, 7)
+Performing turn 0 of your custom algo strategy
+Building a set with probability 0.515625 at location
+(26, 12)
+(26, 13)
+(27, 13)
+Building a set with probability 0.234375 at location
+(24, 11)
+Building a set with probability 0.21875 at location
+(25, 11)
+Building a set with probability 0.203125 at location
+(25, 12)
+(25, 13)
+(24, 12)
+Building a set with probability 0.0 at location
+(1, 12)
+(0, 13)
+(1, 13)
+(2, 12)
+Performing turn 1 of your custom algo strategy
+Building a set with probability 0.225 at location
+(22, 11)
+(22, 12)
+(21, 11)
+(23, 11)
+Performing turn 2 of your custom algo strategy
+Building a set with probability 2 at location
+(1, 13)
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 3 of your custom algo strategy
+Building a set with probability 128 at location
+(1, 13)
+(2, 12)
+Building a set with probability 4.5 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Performing turn 4 of your custom algo strategy
+Performing turn 5 of your custom algo strategy
+Building a set with probability 239 at location
+(7, 12)
+Building a set with probability 4.5 at location
+(10, 11)
+(10, 12)
+(9, 11)
+(11, 11)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 6 of your custom algo strategy
+Building a set with probability 144 at location
+(7, 12)
+(6, 11)
+Performing turn 7 of your custom algo strategy
+Building a set with probability 2.0 at location
+(1, 12)
+(1, 13)
+(2, 12)
+Performing turn 8 of your custom algo strategy
+Building a set with probability 30 at location
+(7, 12)
+Building a set with probability 28 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 9 of your custom algo strategy
+Building a set with probability 77 at location
+(7, 12)
+Building a set with probability 41 at location
+(10, 12)
+Building a set with probability 0.2109375 at location
+(19, 11)
+(19, 12)
+(18, 11)
+(20, 11)
+Performing turn 10 of your custom algo strategy
+Building a set with probability 37 at location
+(9, 11)
+Building a set with probability 14 at location
+(1, 13)
+Performing turn 11 of your custom algo strategy
+Building a set with probability 116 at location
+(7, 12)
+(8, 11)
+Building a set with probability 92 at location
+(10, 12)
+(9, 11)
+Building a set with probability 11 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 12 of your custom algo strategy
+Building a set with probability 114 at location
+(7, 12)
+Building a set with probability 90 at location
+(10, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 13 of your custom algo strategy
+Building a set with probability 174 at location
+(10, 12)
+(9, 11)
+Building a set with probability 112 at location
+(7, 12)
+Building a set with probability 23 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 14 of your custom algo strategy
+Building a set with probability 260 at location
+(7, 12)
+(8, 11)
+Building a set with probability 103 at location
+(10, 12)
+Building a set with probability 26 at location
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 15 of your custom algo strategy
+Building a set with probability 204 at location
+(10, 12)
+(9, 11)
+Building a set with probability 131 at location
+(7, 12)
+Building a set with probability 26 at location
+(1, 13)
+Performing turn 16 of your custom algo strategy
+Building a set with probability 222 at location
+(7, 12)
+(8, 11)
+Building a set with probability 88 at location
+(10, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 17 of your custom algo strategy
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 168 at location
+(10, 12)
+(9, 11)
+Building a set with probability 57 at location
+(7, 12)
+Building a set with probability 23 at location
+(1, 13)
+Building a set with probability 0.20454545454545456 at location
+(16, 11)
+(15, 11)
+(17, 11)
+Didn't like setting a pending removal flag
+Performing turn 18 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 23 at location
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 19 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 20 at location
+(1, 13)
+Building a set with probability 1.238816701949486 at location
+(14, 9)
+Performing turn 20 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 2 at location
+(8, 11)
+Building a set with probability 1.1650216455737858 at location
+(15, 9)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 21 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 23 at location
+(1, 13)
+Performing turn 22 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 29 at location
+(2, 12)
+Building a set with probability 2 at location
+(8, 11)
+Building a set with probability 0.20089285714285715 at location
+(13, 11)
+(13, 12)
+(12, 11)
+(14, 11)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 23 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 19 at location
+(13, 12)
+Building a set with probability 4 at location
+(16, 12)
+Didn't like setting a pending removal flag
+Performing turn 24 of your custom algo strategy
+Building a set with probability 126 at location
+(7, 12)
+(8, 11)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 25 of your custom algo strategy
+Building a set with probability 324 at location
+(7, 12)
+(8, 11)
+Building a set with probability 63 at location
+(13, 12)
+Building a set with probability 26 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 26 of your custom algo strategy
+Building a set with probability 72.19396551724138 at location
+(12, 11)
+Building a set with probability 29 at location
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 27 of your custom algo strategy
+Building a set with probability 63.19396551724138 at location
+(12, 11)
+Building a set with probability 50 at location
+(1, 13)
+(2, 12)
+Building a set with probability 3.3706896551724137 at location
+(10, 11)
+(10, 12)
+(9, 11)
+(11, 11)
+Performing turn 28 of your custom algo strategy
+Building a set with probability 107 at location
+(10, 12)
+Building a set with probability 23 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 29 of your custom algo strategy
+Building a set with probability 144.18103448275863 at location
+(10, 12)
+(9, 11)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 30 of your custom algo strategy
+Building a set with probability 88 at location
+(10, 12)
+Building a set with probability 40 at location
+(13, 12)
+Building a set with probability 23.137931034482758 at location
+(1, 13)
+Building a set with probability 0.9844827586206896 at location
+(12, 9)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 31 of your custom algo strategy
+Building a set with probability 63.19396551724138 at location
+(12, 11)
+Building a set with probability 54 at location
+(1, 13)
+(2, 12)
+Performing turn 32 of your custom algo strategy
+Building a set with probability 120 at location
+(1, 13)
+(2, 12)
+Building a set with probability 63.19396551724138 at location
+(12, 11)
+Didn't like setting a pending removal flag
+Performing turn 33 of your custom algo strategy
+Building a set with probability 54.19396551724138 at location
+(12, 11)
+Building a set with probability 6.0 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Didn't like setting a pending removal flag
+Performing turn 34 of your custom algo strategy
+Building a set with probability 158 at location
+(7, 12)
+Building a set with probability 28 at location
+(13, 12)
+Didn't like setting a pending removal flag
+Performing turn 35 of your custom algo strategy
+Building a set with probability 3.0 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Performing turn 36 of your custom algo strategy
+Building a set with probability 122 at location
+(7, 12)
+Building a set with probability 10.193965517241379 at location
+(12, 11)
+Building a set with probability 1.370689655172414 at location
+(10, 11)
+(10, 12)
+(9, 11)
+(11, 11)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 37 of your custom algo strategy
+Building a set with probability 54.18103448275862 at location
+(9, 11)
+Building a set with probability 3.344827586206897 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Performing turn 38 of your custom algo strategy
+Building a set with probability 141 at location
+(7, 12)
+Building a set with probability 0.9862068965517241 at location
+(13, 9)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 39 of your custom algo strategy
+Building a set with probability 57.18103448275862 at location
+(9, 11)
+Didn't like setting a pending removal flag
+Performing turn 40 of your custom algo strategy
+Building a set with probability 208.18103448275863 at location
+(10, 12)
+(9, 11)
+Building a set with probability 4.844827586206897 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Didn't like setting a pending removal flag
+Performing turn 41 of your custom algo strategy
+Building a set with probability 304.1681034482759 at location
+(7, 12)
+(6, 11)
+Building a set with probability 2.5 at location
+(10, 11)
+Didn't like setting a pending removal flag
+Performing turn 42 of your custom algo strategy
+Building a set with probability 73.18103448275862 at location
+(9, 11)
+Building a set with probability 3.844827586206897 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Performing turn 43 of your custom algo strategy
+Building a set with probability 312.1681034482759 at location
+(7, 12)
+(6, 11)
+Building a set with probability 73 at location
+(10, 12)
+Building a set with probability 0.7017241379310345 at location
+(13, 8)
+Didn't like setting a pending removal flag
+Performing turn 44 of your custom algo strategy
+Building a set with probability 56.18103448275862 at location
+(9, 11)
+Building a set with probability 3.844827586206897 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Performing turn 45 of your custom algo strategy
+Building a set with probability 254.16810344827587 at location
+(7, 12)
+(6, 11)
+Building a set with probability 56 at location
+(10, 12)
+Building a set with probability 0.8602186899087612 at location
+(12, 9)
+Building a set with probability 0.6309037446810976 at location
+(12, 8)
+Didn't like setting a pending removal flag
+Performing turn 46 of your custom algo strategy
+Building a set with probability 56.18103448275862 at location
+(9, 11)
+Building a set with probability 3.844827586206897 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Got end state quitting bot.

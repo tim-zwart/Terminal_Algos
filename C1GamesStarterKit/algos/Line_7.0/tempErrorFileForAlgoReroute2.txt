@@ -1,0 +1,2586 @@
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Distance: 0.0.  Set: [[0, 0]]
+Distance: 1.0.  Set: [[-1, 0], [0, -1], [0, 1], [1, 0]]
+Distance: 1.4142135623730951.  Set: [[-1, -1], [-1, 1], [1, -1], [1, 1]]
+Distance: 2.0.  Set: [[-2, 0], [0, -2], [0, 2], [2, 0]]
+Distance: 2.23606797749979.  Set: [[-2, -1], [-2, 1], [-1, -2], [-1, 2], [1, -2], [1, 2], [2, -1], [2, 1]]
+Distance: 2.8284271247461903.  Set: [[-2, -2], [-2, 2], [2, -2], [2, 2]]
+Distance: 3.0.  Set: [[-3, 0], [0, -3], [0, 3], [3, 0]]
+Distance: 3.1622776601683795.  Set: [[-3, -1], [-3, 1], [-1, -3], [-1, 3], [1, -3], [1, 3], [3, -1], [3, 1]]
+Distance: 0.0.  Set: [[0, 0]]
+Distance: 1.0.  Set: [[-1, 0], [0, -1], [0, 1], [1, 0]]
+Distance: 1.4142135623730951.  Set: [[-1, -1], [-1, 1], [1, -1], [1, 1]]
+Distance: 2.0.  Set: [[-2, 0], [0, -2], [0, 2], [2, 0]]
+Distance: 2.23606797749979.  Set: [[-2, -1], [-2, 1], [-1, -2], [-1, 2], [1, -2], [1, 2], [2, -1], [2, 1]]
+Distance: 2.8284271247461903.  Set: [[-2, -2], [-2, 2], [2, -2], [2, 2]]
+Distance: 3.0.  Set: [[-3, 0], [0, -3], [0, 3], [3, 0]]
+Distance: 3.1622776601683795.  Set: [[-3, -1], [-3, 1], [-1, -3], [-1, 3], [1, -3], [1, 3], [3, -1], [3, 1]]
+Distance: 3.605551275463989.  Set: [[-3, -2], [-3, 2], [-2, -3], [-2, 3], [2, -3], [2, 3], [3, -2], [3, 2]]
+Distance: 4.0.  Set: [[-4, 0], [0, -4], [0, 4], [4, 0]]
+Distance: 4.123105625617661.  Set: [[-4, -1], [-4, 1], [-1, -4], [-1, 4], [1, -4], [1, 4], [4, -1], [4, 1]]
+Distance: 4.242640687119285.  Set: [[-3, -3], [-3, 3], [3, -3], [3, 3]]
+Distance: 4.47213595499958.  Set: [[-4, -2], [-4, 2], [-2, -4], [-2, 4], [2, -4], [2, 4], [4, -2], [4, 2]]
+Distance: 5.0.  Set: [[-5, 0], [-4, -3], [-4, 3], [-3, -4], [-3, 4], [0, -5], [0, 5], [3, -4], [3, 4], [4, -3], [4, 3], [5, 0]]
+Distance: 5.0990195135927845.  Set: [[-5, -1], [-5, 1], [-1, -5], [-1, 5], [1, -5], [1, 5], [5, -1], [5, 1]]
+Distance: 5.385164807134504.  Set: [[-5, -2], [-5, 2], [-2, -5], [-2, 5], [2, -5], [2, 5], [5, -2], [5, 2]]
+Tried to add filters to multiple locations at point (2, 12)
+Tried to add filters to multiple locations at point (24, 12)
+Tried to add filters to multiple locations at point (23, 11)
+Tried to add filters to multiple locations at point (3, 11)
+New build list made up of:
+A DF at (1, 12)
+A FF at (0, 13)
+A FF at (1, 13)
+A FF at (2, 12)
+New build list made up of:
+A DF at (25, 12)
+A FF at (25, 13)
+A FF at (24, 12)
+New build list made up of:
+A DF at (26, 12)
+A FF at (26, 13)
+A FF at (27, 13)
+New build list made up of:
+A DF at (2, 11)
+A FF at (3, 11)
+New build list made up of:
+A DF at (7, 11)
+A FF at (7, 12)
+A FF at (6, 11)
+A FF at (8, 11)
+New build list made up of:
+A DF at (10, 11)
+A FF at (10, 12)
+A FF at (9, 11)
+A FF at (11, 11)
+New build list made up of:
+A DF at (13, 11)
+A FF at (13, 12)
+A FF at (12, 11)
+A FF at (14, 11)
+New build list made up of:
+A DF at (16, 11)
+A FF at (16, 12)
+A FF at (15, 11)
+A FF at (17, 11)
+New build list made up of:
+A DF at (19, 11)
+A FF at (19, 12)
+A FF at (18, 11)
+A FF at (20, 11)
+New build list made up of:
+A DF at (22, 11)
+A FF at (22, 12)
+A FF at (21, 11)
+A FF at (23, 11)
+New build list made up of:
+A DF at (24, 11)
+New build list made up of:
+A DF at (25, 11)
+New build list made up of:
+A DF at (3, 10)
+New build list made up of:
+A DF at (4, 10)
+New build list made up of:
+A DF at (4, 9)
+New build list made up of:
+A DF at (5, 9)
+New build list made up of:
+A DF at (6, 9)
+New build list made up of:
+A DF at (5, 8)
+New build list made up of:
+A DF at (6, 8)
+New build list made up of:
+A DF at (6, 7)
+New build list made up of:
+A EF at (7, 9)
+New build list made up of:
+A EF at (8, 9)
+New build list made up of:
+A EF at (9, 9)
+New build list made up of:
+A EF at (10, 9)
+New build list made up of:
+A EF at (11, 9)
+New build list made up of:
+A EF at (12, 9)
+New build list made up of:
+A EF at (13, 9)
+New build list made up of:
+A EF at (14, 9)
+New build list made up of:
+A EF at (15, 9)
+New build list made up of:
+A EF at (16, 9)
+New build list made up of:
+A EF at (17, 9)
+New build list made up of:
+A EF at (18, 9)
+New build list made up of:
+A EF at (19, 9)
+New build list made up of:
+A EF at (20, 9)
+New build list made up of:
+A EF at (21, 9)
+New build list made up of:
+A EF at (7, 8)
+New build list made up of:
+A EF at (8, 8)
+New build list made up of:
+A EF at (9, 8)
+New build list made up of:
+A EF at (10, 8)
+New build list made up of:
+A EF at (11, 8)
+New build list made up of:
+A EF at (12, 8)
+New build list made up of:
+A EF at (13, 8)
+New build list made up of:
+A EF at (14, 8)
+New build list made up of:
+A EF at (15, 8)
+New build list made up of:
+A EF at (16, 8)
+New build list made up of:
+A EF at (17, 8)
+New build list made up of:
+A EF at (18, 8)
+New build list made up of:
+A EF at (19, 8)
+New build list made up of:
+A EF at (20, 8)
+New build list made up of:
+A EF at (7, 7)
+New build list made up of:
+A EF at (8, 7)
+New build list made up of:
+A EF at (9, 7)
+New build list made up of:
+A EF at (10, 7)
+New build list made up of:
+A EF at (11, 7)
+New build list made up of:
+A EF at (12, 7)
+New build list made up of:
+A EF at (13, 7)
+New build list made up of:
+A EF at (14, 7)
+New build list made up of:
+A EF at (15, 7)
+New build list made up of:
+A EF at (16, 7)
+New build list made up of:
+A EF at (17, 7)
+New build list made up of:
+A EF at (18, 7)
+New build list made up of:
+A EF at (19, 7)
+Performing turn 0 of your custom algo strategy
+Building a set with probability 0.515625 at location
+(26, 12)
+(26, 13)
+(27, 13)
+Building a set with probability 0.234375 at location
+(24, 11)
+Building a set with probability 0.21875 at location
+(25, 11)
+Building a set with probability 0.203125 at location
+(25, 12)
+(25, 13)
+(24, 12)
+Building a set with probability 0.0 at location
+(1, 12)
+(0, 13)
+(1, 13)
+(2, 12)
+Initialization of simulator in 0.0039069899999999436s
+Edges took 0.0004475739999998396s
+Calculated pathfinding in 0.035808031000000184s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24
+
+Row 15          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26
+
+Row 14      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28
+
+Row 13      2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 12          4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 11              6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.008858038999997042s
+Attacking took 0.028630209999999767s
+Actual simulation took 0.03905411400000025s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24
+
+Row 15          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26
+
+Row 14      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28
+
+Row 13      2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 12          4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 11              6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.09991176499999987s
+57797 function calls (57793 primitive calls) in 0.100 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.096    0.096 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.007    0.007    0.040    0.040 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+      116    0.001    0.000    0.039    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+      115    0.002    0.000    0.028    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+     1562    0.019    0.000    0.027    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       82    0.010    0.000    0.023    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+    18115    0.013    0.000    0.013    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        2    0.004    0.002    0.011    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+     4881    0.006    0.000    0.010    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+      116    0.003    0.000    0.008    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+     2706    0.005    0.000    0.005    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+      119    0.000    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+        1    0.000    0.000    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+      957    0.004    0.000    0.004    0.000 {built-in method time.clock}
+     1624    0.004    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+       78    0.002    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+        1    0.001    0.001    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+     1310    0.002    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+      424    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+     1562    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+     8336    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     9075    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+      313    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+     1310    0.001    0.000    0.001    0.000 {built-in method math.sqrt}
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      313    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:416(parent)
+      904    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+      313    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+     1566    0.001    0.000    0.001    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      320    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+      313    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      272    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+      8/4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+        8    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       80    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+       83    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       20    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+        6    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Performing turn 1 of your custom algo strategy
+Building a set with probability 0.225 at location
+(22, 11)
+(22, 12)
+(21, 11)
+(23, 11)
+Initialization of simulator in 0.005403311999999882s
+Edges took 0.000512427000000315s
+Calculated pathfinding in 0.044235131000000205s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   2   3   4   5   6   7   8   .   .   .   12  13  14  15  16  17  .   .   .   21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  .   14  13  14  15  16  17  18  19  .   23  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .
+
+Row 13      .   .   8   7   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   8   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 11              10  9   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  .   .
+
+Row 10                  10  9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.004659205000002498s
+Attacking took 0.07115055800000247s
+Actual simulation took 0.07694982599999989s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   2   3   4   5   6   7   8   .   .   11  12  13  14  15  16  17  18  .   20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  .   14  13  14  15  16  17  18  19  20  23  22  23  24  25  .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  .
+
+Row 13      .   .   8   7   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   8   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 11              10  9   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  .   .
+
+Row 10                  10  9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.14722871300000007s
+102088 function calls (102057 primitive calls) in 0.147 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.141    0.141 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+      116    0.001    0.000    0.077    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+      115    0.002    0.000    0.071    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+      168    0.027    0.000    0.065    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+        1    0.009    0.009    0.049    0.049 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+     1460    0.023    0.000    0.034    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+    14709    0.015    0.000    0.026    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+    38101    0.024    0.000    0.024    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        2    0.003    0.001    0.008    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+     3383    0.005    0.000    0.007    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+     2611    0.006    0.000    0.006    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+      116    0.001    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+     1624    0.004    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+        1    0.001    0.001    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+      957    0.004    0.000    0.004    0.000 {built-in method time.clock}
+      119    0.000    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+    18672    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+      424    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+       61    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+     1460    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+        1    0.000    0.000    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+     7993    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     3383    0.001    0.000    0.001    0.000 {built-in method math.sqrt}
+        2    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+    62/31    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      399    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+      399    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+      399    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:416(parent)
+     1464    0.001    0.000    0.001    0.000 {method 'add' of 'set' objects}
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      856    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+       62    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+      141    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+      399    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      306    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+      578    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+      250    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+      201    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       62    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+      169    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       64    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       29    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+Performing turn 2 of your custom algo strategy
+Building a set with probability 2 at location
+(1, 13)
+(2, 12)
+Initialization of simulator in 0.007307952999999756s
+Edges took 0.0004898140000002549s
+Calculated pathfinding in 0.028772718000000364s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   .   .   11  12  13  14  15  16  17  18  19  .   21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  .   12  13  14  15  16  17  18  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  26  27  28  .   .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.0023522179999999615s
+Attacking took 0.01421398599999879s
+Actual simulation took 0.016991160999999977s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   .   .   11  12  13  14  15  16  17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  .   12  13  14  15  16  17  18  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  26  27  28  29  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.06844080499999983s
+53213 function calls (53183 primitive calls) in 0.068 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.061    0.061 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.006    0.006    0.032    0.032 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+     1460    0.015    0.000    0.022    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       64    0.000    0.000    0.017    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+       64    0.001    0.000    0.014    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       68    0.005    0.000    0.012    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+        2    0.003    0.001    0.008    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+    16966    0.008    0.000    0.008    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        1    0.000    0.000    0.007    0.007 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.007    0.007 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+        1    0.001    0.001    0.006    0.006 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+     4470    0.003    0.000    0.006    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+     2583    0.005    0.000    0.005    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+     7862    0.003    0.000    0.003    0.000 {method 'append' of 'list' objects}
+     1624    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+      119    0.000    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+       64    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+     1142    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      548    0.001    0.000    0.001    0.000 {built-in method time.clock}
+     1460    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+        2    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+       54    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+      424    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+     8331    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+    60/30    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      854    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+     1464    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      196    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+     1142    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      196    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       60    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+      196    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+      196    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      216    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+      176    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       33    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+       77    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       60    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       69    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       58    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+       28    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       57    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 3 of your custom algo strategy
+Building a set with probability 128 at location
+(1, 13)
+(2, 12)
+Building a set with probability 4.5 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Initialization of simulator in 0.0027251220000001908s
+Edges took 0.00026495999999998077s
+Calculated pathfinding in 0.021022311000000293s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  25  24  25  26  27  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.002467837000000195s
+Attacking took 0.015633080999997162s
+Actual simulation took 0.018577508999999992s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  25  24  25  26  27  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.06018607800000009s
+53157 function calls (53132 primitive calls) in 0.060 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.057    0.057 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.004    0.004    0.023    0.023 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+       64    0.000    0.000    0.019    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+     1491    0.011    0.000    0.016    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       64    0.001    0.000    0.015    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       68    0.006    0.000    0.014    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+    16922    0.009    0.000    0.009    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        2    0.003    0.002    0.009    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+     4392    0.004    0.000    0.008    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+     2602    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+      119    0.000    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+        1    0.000    0.000    0.003    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.003    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+       64    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+        1    0.001    0.001    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+      424    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+     1624    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+     1108    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      548    0.001    0.000    0.001    0.000 {built-in method time.clock}
+       54    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+     8320    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     7973    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     1491    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      863    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+    50/25    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      196    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+     1495    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+     1108    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+      196    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      196    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+       50    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+      196    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+      216    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      176    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+       20    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+       60    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       58    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       69    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       50    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       36    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+       23    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Performing turn 4 of your custom algo strategy
+Initialization of simulator in 0.004988164000000239s
+Edges took 0.0005337599999997167s
+Calculated pathfinding in 0.02285527199999926s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  12  13  14  .   .   .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  14  15  16  .   20  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  .
+
+Row 13      .   .   8   7   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          -1   .   8   7   8   9   .   11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              10  9   8   9   .   .   .   13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  10  9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.0022630449999994084s
+Attacking took 0.013814623999998332s
+Actual simulation took 0.016498786999999737s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  12  13  14  .   .   .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  14  15  16  .   20  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  .
+
+Row 13      .   .   8   7   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          -1   .   8   7   8   9   .   11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              10  9   8   9   .   .   .   13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  10  9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.057490395000000305s
+52966 function calls (52932 primitive calls) in 0.058 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.052    0.052 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.005    0.005    0.026    0.026 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+     1443    0.012    0.000    0.017    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       64    0.000    0.000    0.016    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+       64    0.001    0.000    0.014    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       68    0.005    0.000    0.012    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+    16888    0.007    0.000    0.007    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        2    0.002    0.001    0.006    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+     4470    0.003    0.000    0.006    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+        1    0.001    0.001    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+     1624    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+     2585    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+      119    0.000    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+       64    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+     1134    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      547    0.001    0.000    0.001    0.000 {built-in method time.clock}
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+        2    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+     7803    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+      424    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+       54    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+    68/34    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+     1443    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+     8293    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+      119    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      845    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+      196    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+     1447    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+     1134    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+       68    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      196    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+      196    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+      196    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      216    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+      167    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       68    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+       80    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       26    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       58    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       69    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       32    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+       46    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Performing turn 5 of your custom algo strategy
+Building a set with probability 239 at location
+(7, 12)
+Building a set with probability 4.5 at location
+(10, 11)
+(10, 12)
+(9, 11)
+(11, 11)
+Initialization of simulator in 0.00329301599999976s
+Edges took 0.0005994670000006863s
+Calculated pathfinding in 0.03465688300000025s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   .   .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   17  18  19  20  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  26  27  28  .   .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          4   .   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   .   13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.004005975000000106s
+Attacking took 0.02531842100000503s
+Actual simulation took 0.030027118999999658s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   .   17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   17  18  19  20  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  26  27  28  29  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          4   .   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   .   13  14  15  16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.08615559299999997s
+51976 function calls (51940 primitive calls) in 0.086 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.083    0.083 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.006    0.006    0.037    0.037 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+       56    0.000    0.000    0.030    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+     1449    0.018    0.000    0.027    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       56    0.001    0.000    0.025    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       64    0.009    0.000    0.022    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+    16536    0.013    0.000    0.013    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        2    0.003    0.002    0.010    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+     4284    0.006    0.000    0.010    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+     2575    0.005    0.000    0.005    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+       56    0.001    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+      119    0.000    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+        1    0.000    0.000    0.003    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.003    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+     1084    0.002    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+        1    0.001    0.001    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+      484    0.002    0.000    0.002    0.000 {built-in method time.clock}
+       50    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+     1624    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+      424    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+     1449    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+     8101    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     7808    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+        2    0.000    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+    72/36    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      842    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+     1084    0.001    0.000    0.001    0.000 {built-in method math.sqrt}
+      176    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+     1453    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      176    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      176    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       72    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+      200    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+      176    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+      155    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+       34    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+       86    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       54    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       58    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+       72    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       65    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       34    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 6 of your custom algo strategy
+Building a set with probability 144 at location
+(7, 12)
+(6, 11)
+Initialization of simulator in 0.012236810000000098s
+Edges took 0.00046378699999927164s
+Calculated pathfinding in 0.04074584799999936s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   .   17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   19  20  21  18  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  17  18  19  20  21  22  21  24  25  24  27  28  29  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          4   .   6   7   8   9   10  11  12  .   14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   10  .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.003547312000001135s
+Attacking took 0.022065085000003926s
+Actual simulation took 0.02626348900000064s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   .   17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   19  20  21  18  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  17  18  19  20  21  22  21  24  25  24  27  28  29  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          4   .   6   7   8   9   10  11  12  .   14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   10  .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.10301320800000013s
+49576 function calls (49539 primitive calls) in 0.103 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.090    0.090 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.007    0.007    0.044    0.044 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+     1433    0.022    0.000    0.032    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       52    0.000    0.000    0.026    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+       52    0.002    0.000    0.022    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       56    0.008    0.000    0.018    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+        2    0.004    0.002    0.014    0.007 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+        1    0.000    0.000    0.012    0.012 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.012    0.012 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+    15500    0.012    0.000    0.012    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        1    0.001    0.001    0.010    0.010 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+     1624    0.010    0.000    0.010    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+     3920    0.005    0.000    0.009    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+     2562    0.007    0.000    0.007    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+      119    0.001    0.000    0.007    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+      119    0.004    0.000    0.004    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+       52    0.001    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+      452    0.002    0.000    0.002    0.000 {built-in method time.clock}
+      948    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      424    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+        1    0.000    0.000    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+      119    0.001    0.000    0.002    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+       48    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+     1433    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+        2    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+     7696    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     7732    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+    74/37    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      839    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+      948    0.001    0.000    0.001    0.000 {built-in method math.sqrt}
+      160    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+     1437    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      160    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+      160    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       74    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      160    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+      192    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+      145    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+       71    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       74    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       52    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       40    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+       57    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       35    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+Performing turn 7 of your custom algo strategy
+Building a set with probability 2.0 at location
+(1, 12)
+(1, 13)
+(2, 12)
+Initialization of simulator in 0.00481834999999986s
+Edges took 0.00029738599999973303s
+Calculated pathfinding in 0.019198735999999883s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   16  .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   17  18  .   20  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          4   5   6   7   8   9   .   11  12  .   14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              6   7   8   9   .   .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.0023441109999984278s
+Attacking took 0.014079585000002837s
+Actual simulation took 0.016858895000000373s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   16  .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   17  18  .   20  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          4   5   6   7   8   9   .   11  12  .   14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              6   7   8   9   .   .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.056570074999999775s
+51628 function calls (51589 primitive calls) in 0.057 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.051    0.051 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.004    0.004    0.022    0.022 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+       56    0.000    0.000    0.017    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+     1422    0.010    0.000    0.015    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       56    0.001    0.000    0.014    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       64    0.005    0.000    0.012    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+        2    0.003    0.002    0.009    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+    16429    0.007    0.000    0.007    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+     4285    0.003    0.000    0.006    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+      119    0.000    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+     2561    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+        1    0.001    0.001    0.003    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+     1624    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+       56    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+     1080    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+        2    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+      484    0.001    0.000    0.001    0.000 {built-in method time.clock}
+       50    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+    78/39    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      424    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+     7713    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     8045    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     1422    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      834    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+      176    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+       78    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+     1080    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      176    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     1426    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      176    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+      155    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+      176    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+      200    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+       34    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+       91    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       78    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       54    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       54    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+       37    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       65    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Performing turn 8 of your custom algo strategy
+Building a set with probability 30 at location
+(7, 12)
+Building a set with probability 28 at location
+(1, 13)
+Initialization of simulator in 0.004654084000000225s
+Edges took 0.0004330669999994541s
+Calculated pathfinding in 0.02377132699999951s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   .   .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   19  20  21  20  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  17  18  19  20  21  20  21  22  23  24  25  26  .   .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   6   7   8   9   10  11  12  .   14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.0019972300000024035s
+Attacking took 0.013509558000002642s
+Actual simulation took 0.015861346999999526s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   3   4   5   6   7   8   9   10  11  .   .   .   .   .   17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   4   5   6   7   8   9   10  11  12  13  .   19  20  21  20  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   5   6   7   8   9   10  11  12  13  14  17  18  19  20  21  20  21  22  23  24  25  26  27  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   6   7   8   9   10  11  12  .   14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.06291888000000068s
+51769 function calls (51728 primitive calls) in 0.063 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.058    0.058 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.006    0.006    0.027    0.027 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+     1422    0.013    0.000    0.018    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       52    0.000    0.000    0.016    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+       52    0.001    0.000    0.013    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       62    0.005    0.000    0.012    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+        2    0.003    0.002    0.010    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+    16565    0.008    0.000    0.008    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+     4357    0.004    0.000    0.006    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+      119    0.000    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+     2560    0.004    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+     1624    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+      119    0.003    0.000    0.003    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        1    0.001    0.001    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+        1    0.000    0.000    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+       52    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+        2    0.000    0.000    0.002    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+     1072    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      424    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+    82/41    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      452    0.001    0.000    0.001    0.000 {built-in method time.clock}
+     7702    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     1422    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+     8107    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+       48    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      832    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+       82    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+     1426    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      166    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+     1072    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      166    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      166    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+       82    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+      166    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      192    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+      145    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+       34    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+       82    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       63    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       39    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       52    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       58    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 9 of your custom algo strategy
+Building a set with probability 77 at location
+(7, 12)
+Building a set with probability 41 at location
+(10, 12)
+Building a set with probability 0.2109375 at location
+(19, 11)
+(19, 12)
+(18, 11)
+(20, 11)
+Initialization of simulator in 0.007548166999999495s
+Edges took 0.0003012269999995709s
+Calculated pathfinding in 0.0212228449999996s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   .   .   .   6   7   8   9   10  11  .   .   .   .   .   17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   12  .   8   7   8   9   10  11  12  13  .   19  20  19  18  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   12  11  10  9   8   9   10  11  12  13  14  15  18  19  20  19  20  21  22  25  26  25  26  27  .
+
+Row 13      .   .   14  13  12  11  10  9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   14  13  12  11  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              16  15  14  13  .   .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  16  15  14  15  16  17  18  19  18  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       16  15  16  17  18  19  20  19  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           16  17  18  19  20  21  20  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               18  19  20  21  22  21  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   20  21  22  23  22  21  22  23  24  25  26  27  28  29
+
+Row 5                                       22  23  24  23  22  23  24  25  26  27  28  29
+
+Row 4                                           24  25  24  23  24  25  26  27  28  29
+
+Row 3                                               26  25  24  25  26  27  28  29
+
+Row 2                                                   26  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.0022732819999999876s
+Attacking took 0.012534195000001525s
+Actual simulation took 0.015186786000000119s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   .   .   .   6   7   8   9   10  11  .   .   .   .   .   17  18  19  20  21  22  23  24
+
+Row 15          1   .   .   12  .   8   7   8   9   10  11  12  13  .   19  20  19  18  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   12  11  10  9   8   9   10  11  12  13  14  15  18  19  20  19  20  21  22  25  26  25  26  27  .
+
+Row 13      .   .   14  13  12  11  10  9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   14  13  12  11  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   26  .   .   .
+
+Row 11              16  15  14  13  .   .   .   .   .   .   16  17  18  19  20  21  22  23  24  .   .   .   .   .
+
+Row 10                  16  15  14  15  16  17  18  19  18  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       16  15  16  17  18  19  20  19  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           16  17  18  19  20  21  20  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               18  19  20  21  22  21  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   20  21  22  23  22  21  22  23  24  25  26  27  28  29
+
+Row 5                                       22  23  24  23  22  23  24  25  26  27  28  29
+
+Row 4                                           24  25  24  23  24  25  26  27  28  29
+
+Row 3                                               26  25  24  25  26  27  28  29
+
+Row 2                                                   26  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.05530074099999993s
+51257 function calls (51214 primitive calls) in 0.055 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.048    0.048 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.004    0.004    0.023    0.023 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+     1409    0.011    0.000    0.016    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+       52    0.000    0.000    0.015    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+       52    0.001    0.000    0.012    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       62    0.005    0.000    0.011    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+        1    0.000    0.000    0.008    0.008 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.007    0.007 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+    16352    0.007    0.000    0.007    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        1    0.001    0.001    0.006    0.006 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+        2    0.002    0.001    0.006    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+     4286    0.003    0.000    0.005    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+        1    0.000    0.000    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.004    0.004    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+     2558    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+      119    0.000    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+     1624    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+       52    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+      119    0.001    0.000    0.001    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+     1058    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+       48    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+      451    0.001    0.000    0.001    0.000 {built-in method time.clock}
+      424    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+        1    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+     7644    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        2    0.000    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+     1409    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+     8008    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+    86/43    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      119    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      827    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+      166    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+     1413    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+     1058    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+      166    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+       86    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+      166    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+      192    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+      166    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+      149    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       30    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+       83    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       86    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       63    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       52    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       48    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+       41    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Performing turn 10 of your custom algo strategy
+Building a set with probability 37 at location
+(9, 11)
+Building a set with probability 14 at location
+(1, 13)
+Initialization of simulator in 0.00451925700000011s
+Edges took 0.0002743470000003967s
+Calculated pathfinding in 0.020152336999999854s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   .   .   .   6   7   8   9   10  11  .   .   .   .   16  .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   8   .   8   7   8   9   10  11  12  13  .   17  18  .   20  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   7   8   9   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   6   7   8   9   .   11  12  .   14  15  16  17  18  19  20  21  .   23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   .   13  .   .   16  17  18  19  20  21  .   .   .   .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.003960750000001845s
+Attacking took 0.021759588000002772s
+Actual simulation took 0.026500288999999455s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   .   .   .   6   7   8   9   10  11  .   .   .   .   16  .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   8   .   8   7   8   9   10  11  12  13  .   17  18  .   20  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   6   7   8   9   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   6   7   8   9   .   11  12  .   14  15  16  17  18  19  20  21  .   23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   .   13  .   .   16  17  18  19  20  21  .   .   .   .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.06633989599999968s
+59991 function calls (59942 primitive calls) in 0.066 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.061    0.061 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+      116    0.000    0.000    0.026    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+        1    0.004    0.004    0.023    0.023 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+      115    0.002    0.000    0.021    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       92    0.008    0.000    0.018    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+     1372    0.011    0.000    0.016    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+    19222    0.010    0.000    0.010    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+     5646    0.005    0.000    0.010    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+        2    0.002    0.001    0.006    0.003 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+        1    0.000    0.000    0.005    0.005 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.004    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+      116    0.001    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+     2655    0.003    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+     1624    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+        1    0.001    0.001    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+     1648    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      119    0.000    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+      960    0.002    0.000    0.002    0.000 {built-in method time.clock}
+        1    0.000    0.000    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+        2    0.000    0.000    0.002    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+       78    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+    98/49    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+      119    0.001    0.000    0.001    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+      424    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+     9415    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     7686    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     1372    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+      323    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+     1648    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+      119    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      815    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+      323    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       98    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+      323    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+     1376    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      323    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+      320    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      225    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+       65    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+      170    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+       98    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+      135    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+       80    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       93    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       47    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Performing turn 11 of your custom algo strategy
+Building a set with probability 116 at location
+(7, 12)
+(8, 11)
+Building a set with probability 92 at location
+(10, 12)
+(9, 11)
+Building a set with probability 11 at location
+(1, 13)
+Initialization of simulator in 0.0079855000000002s
+Edges took 0.0004770140000003309s
+Calculated pathfinding in 0.030086426000000444s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   .   .   .   6   7   8   9   10  11  .   .   14  .   .   .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   8   .   8   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  .   .
+
+Row 14      1   2   .   6   7   8   9   8   9   10  11  12  13  14  17  16  17  18  19  20  21  22  23  24  25  26  27  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  .   23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   12  13  .   .   16  17  18  19  20  21  .   .   .   .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Movement took 0.003895475999997622s
+Attacking took 0.020029034999999418s
+Actual simulation took 0.024721514000000333s
+Row 27                                                          1   2
+
+Row 26                                                      1   2   3   4
+
+Row 25                                                  1   2   3   4   5   6
+
+Row 24                                              1   2   3   4   5   6   7   8
+
+Row 23                                          1   2   3   4   5   6   7   8   9   10
+
+Row 22                                      1   2   3   4   5   6   7   8   9   10  11  12
+
+Row 21                                  1   2   3   4   5   6   7   8   9   10  11  12  13  14
+
+Row 20                              1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16
+
+Row 19                          1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
+
+Row 18                      1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Row 17                  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22
+
+Row 16              1   .   .   .   .   6   7   8   9   10  11  .   .   14  15  .   .   18  19  20  21  22  23  24
+
+Row 15          1   .   .   8   .   8   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  .
+
+Row 14      1   2   .   6   7   8   9   8   9   10  11  12  13  14  17  16  17  18  19  20  21  22  23  24  25  26  27  .
+
+Row 13      .   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  .   .   .
+
+Row 12          .   .   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  .   23  24  .   26  .   .   .
+
+Row 11              8   7   8   9   .   .   12  13  .   .   16  17  18  19  20  21  .   .   .   .   .   .   .   .
+
+Row 10                  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 9                       10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 8                           12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 7                               14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 6                                   16  17  18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 5                                       18  19  20  21  22  23  24  25  26  27  28  29
+
+Row 4                                           20  21  22  23  24  25  26  27  28  29
+
+Row 3                                               22  23  24  25  26  27  28  29
+
+Row 2                                                   24  25  26  27  28  29
+
+Row 1                                                       26  27  28  29
+
+Row 0                                                           28  29
+
+Finished simulation in 0.07746566600000016s
+58926 function calls (58883 primitive calls) in 0.077 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.069    0.069 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:43(simulate)
+        1    0.005    0.005    0.033    0.033 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:77(calculate)
+      116    0.000    0.000    0.025    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:90(frame)
+     1356    0.017    0.000    0.024    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:173(propogate_node)
+      115    0.001    0.000    0.020    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:165(unit_attack)
+       91    0.007    0.000    0.017    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\advanced_game_state.py:11(get_target)
+    18834    0.009    0.000    0.009    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:384(in_arena_bounds)
+        1    0.000    0.000    0.008    0.008 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:8(__init__)
+        1    0.000    0.000    0.008    0.008 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:41(__init__)
+        2    0.003    0.001    0.008    0.004 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:349(show_board)
+     5509    0.004    0.000    0.007    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:55(__getitem__)
+        1    0.002    0.002    0.006    0.006 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:61(__init__)
+     1624    0.005    0.000    0.005    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:39(__init__)
+     2622    0.004    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:280(contains_stationary_unit)
+      116    0.001    0.000    0.004    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\simulator.py:117(move_units)
+      119    0.000    0.000    0.003    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\util.py:32(debug_write)
+      958    0.002    0.000    0.002    0.000 {built-in method time.clock}
+     1592    0.002    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:211(distance_between_locations)
+      119    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+       78    0.001    0.000    0.002    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:296(next_loc)
+        1    0.000    0.000    0.002    0.002 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:101(__parse_state)
+        2    0.000    0.000    0.001    0.001 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:131(__create_parsed_units)
+     7603    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+    86/43    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:26(__init__)
+     9252    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+      424    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:486(contains_stationary_unit)
+     1356    0.001    0.000    0.001    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:12(__init__)
+      119    0.000    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      322    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+      828    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:84(__empty_grid)
+     1592    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+      322    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      322    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+     1360    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:380(attempt_add)
+       86    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:79(__serialize_type)
+      119    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py:18(encode)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:118(add_unit)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py:299(loads)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:332(decode)
+      119    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      119    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      322    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      320    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:120(decay)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py:343(raw_decode)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:166(get_locations_in_range)
+      229    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+       55    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:99(attack)
+        4    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:289(can_spawn)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+      141    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_state.py:11(is_stationary)
+      119    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       86    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\unit.py:3(is_stationary)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:92(_invalid_coordinates)
+       80    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+      105    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+       16    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:96(get_edge_locations)
+       92    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       41    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\navigation.py:431(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Tim\Documents\GitHub\C1GamesStarterKit\algos\Line_7.0\gamelib\game_map.py:115(get_edges)
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Got EOF, parent game process must have died, exiting for cleanup

@@ -1,0 +1,177 @@
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Tried to add filters to multiple locations at point (2, 12)
+Tried to add filters to multiple locations at point (24, 12)
+Tried to add filters to multiple locations at point (23, 11)
+Tried to add filters to multiple locations at point (3, 11)
+New build list made up of:
+A DF at (1, 12)
+A FF at (0, 13)
+A FF at (1, 13)
+A FF at (2, 12)
+New build list made up of:
+A DF at (25, 12)
+A FF at (25, 13)
+A FF at (24, 12)
+New build list made up of:
+A DF at (26, 12)
+A FF at (26, 13)
+A FF at (27, 13)
+New build list made up of:
+A DF at (2, 11)
+A FF at (3, 11)
+New build list made up of:
+A DF at (7, 11)
+A FF at (7, 12)
+A FF at (6, 11)
+A FF at (8, 11)
+New build list made up of:
+A DF at (10, 11)
+A FF at (10, 12)
+A FF at (9, 11)
+A FF at (11, 11)
+New build list made up of:
+A DF at (13, 11)
+A FF at (13, 12)
+A FF at (12, 11)
+A FF at (14, 11)
+New build list made up of:
+A DF at (16, 11)
+A FF at (16, 12)
+A FF at (15, 11)
+A FF at (17, 11)
+New build list made up of:
+A DF at (19, 11)
+A FF at (19, 12)
+A FF at (18, 11)
+A FF at (20, 11)
+New build list made up of:
+A DF at (22, 11)
+A FF at (22, 12)
+A FF at (21, 11)
+A FF at (23, 11)
+New build list made up of:
+A DF at (24, 11)
+New build list made up of:
+A DF at (25, 11)
+New build list made up of:
+A DF at (3, 10)
+New build list made up of:
+A DF at (4, 10)
+New build list made up of:
+A DF at (4, 9)
+New build list made up of:
+A DF at (5, 9)
+New build list made up of:
+A DF at (6, 9)
+New build list made up of:
+A DF at (5, 8)
+New build list made up of:
+A DF at (6, 8)
+New build list made up of:
+A DF at (6, 7)
+New build list made up of:
+A EF at (7, 9)
+New build list made up of:
+A EF at (8, 9)
+New build list made up of:
+A EF at (9, 9)
+New build list made up of:
+A EF at (10, 9)
+New build list made up of:
+A EF at (11, 9)
+New build list made up of:
+A EF at (12, 9)
+New build list made up of:
+A EF at (13, 9)
+New build list made up of:
+A EF at (14, 9)
+New build list made up of:
+A EF at (15, 9)
+New build list made up of:
+A EF at (16, 9)
+New build list made up of:
+A EF at (17, 9)
+New build list made up of:
+A EF at (18, 9)
+New build list made up of:
+A EF at (19, 9)
+New build list made up of:
+A EF at (20, 9)
+New build list made up of:
+A EF at (21, 9)
+New build list made up of:
+A EF at (7, 8)
+New build list made up of:
+A EF at (8, 8)
+New build list made up of:
+A EF at (9, 8)
+New build list made up of:
+A EF at (10, 8)
+New build list made up of:
+A EF at (11, 8)
+New build list made up of:
+A EF at (12, 8)
+New build list made up of:
+A EF at (13, 8)
+New build list made up of:
+A EF at (14, 8)
+New build list made up of:
+A EF at (15, 8)
+New build list made up of:
+A EF at (16, 8)
+New build list made up of:
+A EF at (17, 8)
+New build list made up of:
+A EF at (18, 8)
+New build list made up of:
+A EF at (19, 8)
+New build list made up of:
+A EF at (20, 8)
+New build list made up of:
+A EF at (7, 7)
+New build list made up of:
+A EF at (8, 7)
+New build list made up of:
+A EF at (9, 7)
+New build list made up of:
+A EF at (10, 7)
+New build list made up of:
+A EF at (11, 7)
+New build list made up of:
+A EF at (12, 7)
+New build list made up of:
+A EF at (13, 7)
+New build list made up of:
+A EF at (14, 7)
+New build list made up of:
+A EF at (15, 7)
+New build list made up of:
+A EF at (16, 7)
+New build list made up of:
+A EF at (17, 7)
+New build list made up of:
+A EF at (18, 7)
+New build list made up of:
+A EF at (19, 7)
+Performing turn 0 of your custom algo strategy
+Building a set with probability 100.040625 at location
+(25, 12)
+(25, 13)
+(24, 12)
+Building a set with probability 100.0 at location
+(1, 12)
+(0, 13)
+(1, 13)
+(2, 12)
+Building a set with probability 100.0 at location
+(7, 11)
+(7, 12)
+(6, 11)
+(8, 11)
+Building a set with probability 100.0 at location
+(16, 11)
+(16, 12)
+(15, 11)
+(17, 11)
+Got EOF, parent game process must have died, exiting for cleanup

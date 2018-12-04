@@ -1,0 +1,201 @@
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Tried to add filters to multiple locations at point (3, 11)
+Tried to add filters to multiple locations at point (24, 11)
+Tried to add filters to multiple locations at point (4, 10)
+Tried to add filters to multiple locations at point (23, 10)
+New build list made up of:
+A DF at (2, 11)
+A FF at (0, 13)
+A FF at (1, 12)
+A FF at (2, 12)
+A FF at (3, 11)
+New build list made up of:
+A DF at (7, 11)
+A FF at (7, 12)
+A FF at (6, 11)
+New build list made up of:
+A DF at (8, 11)
+A FF at (8, 12)
+A FF at (9, 11)
+New build list made up of:
+A DF at (13, 11)
+A FF at (13, 12)
+A FF at (12, 11)
+New build list made up of:
+A DF at (14, 11)
+A FF at (14, 12)
+A FF at (15, 11)
+New build list made up of:
+A DF at (19, 11)
+A FF at (19, 12)
+A FF at (18, 11)
+New build list made up of:
+A DF at (20, 11)
+A FF at (20, 12)
+A FF at (21, 11)
+New build list made up of:
+A DF at (25, 11)
+A FF at (27, 13)
+A FF at (25, 12)
+A FF at (26, 12)
+A FF at (24, 11)
+New build list made up of:
+A DF at (3, 10)
+A FF at (4, 10)
+New build list made up of:
+A DF at (24, 10)
+A FF at (23, 10)
+New build list made up of:
+A DF at (4, 9)
+A FF at (5, 9)
+New build list made up of:
+A DF at (23, 9)
+A FF at (22, 9)
+New build list made up of:
+A DF at (7, 8)
+A FF at (7, 9)
+New build list made up of:
+A DF at (9, 8)
+A FF at (9, 9)
+New build list made up of:
+A DF at (11, 8)
+A FF at (11, 9)
+New build list made up of:
+A DF at (13, 8)
+A FF at (13, 9)
+New build list made up of:
+A DF at (14, 8)
+A FF at (14, 9)
+New build list made up of:
+A DF at (16, 8)
+A FF at (16, 9)
+New build list made up of:
+A DF at (18, 8)
+A FF at (18, 9)
+New build list made up of:
+A DF at (20, 8)
+A FF at (20, 9)
+New build list made up of:
+A EF at (5, 8)
+New build list made up of:
+A EF at (22, 8)
+New build list made up of:
+A EF at (9, 6)
+New build list made up of:
+A EF at (10, 6)
+New build list made up of:
+A EF at (11, 6)
+New build list made up of:
+A EF at (12, 6)
+New build list made up of:
+A EF at (15, 6)
+New build list made up of:
+A EF at (16, 6)
+New build list made up of:
+A EF at (17, 6)
+New build list made up of:
+A EF at (18, 6)
+New build list made up of:
+A EF at (10, 5)
+New build list made up of:
+A EF at (11, 5)
+New build list made up of:
+A EF at (12, 5)
+New build list made up of:
+A EF at (15, 5)
+New build list made up of:
+A EF at (16, 5)
+New build list made up of:
+A EF at (17, 5)
+New build list made up of:
+A EF at (11, 4)
+New build list made up of:
+A EF at (12, 4)
+New build list made up of:
+A EF at (15, 4)
+New build list made up of:
+A EF at (16, 4)
+Performing turn 0 of your custom algo strategy
+Building a set with probability 100.0 at location
+(7, 8)
+(7, 9)
+Building a set with probability 100.0 at location
+(9, 8)
+(9, 9)
+Building a set with probability 100.0 at location
+(11, 8)
+(11, 9)
+Building a set with probability 100.0 at location
+(16, 8)
+(16, 9)
+Building a set with probability 100.0 at location
+(18, 8)
+(18, 9)
+Building a set with probability 100.0 at location
+(20, 8)
+(20, 9)
+Performing turn 1 of your custom algo strategy
+Building a set with probability 0.26 at location
+(5, 8)
+Performing turn 2 of your custom algo strategy
+Building a set with probability 4.0 at location
+(25, 11)
+(27, 13)
+(25, 12)
+(26, 12)
+(24, 11)
+Building a set with probability 0.14 at location
+(9, 6)
+Performing turn 3 of your custom algo strategy
+Building a set with probability 0.12 at location
+(10, 6)
+Performing turn 4 of your custom algo strategy
+Building a set with probability 4.0 at location
+(2, 11)
+(0, 13)
+(1, 12)
+(2, 12)
+(3, 11)
+Building a set with probability 0.1 at location
+(11, 6)
+Performing turn 5 of your custom algo strategy
+Building a set with probability 0.26 at location
+(22, 8)
+Performing turn 6 of your custom algo strategy
+Building a set with probability 5.0 at location
+(24, 10)
+(23, 10)
+Building a set with probability 4.0 at location
+(23, 9)
+(22, 9)
+Performing turn 7 of your custom algo strategy
+Building a set with probability 70 at location
+(25, 11), except probability < 0
+(27, 13), except probability < 0
+(25, 12), except probability < 0
+(26, 12), except probability < 0
+(24, 11)
+Building a set with probability 3.0 at location
+(20, 11)
+(20, 12)
+(21, 11)
+Performing turn 8 of your custom algo strategy
+Building a set with probability 5.0 at location
+(3, 10)
+(4, 10)
+Building a set with probability 4.0 at location
+(4, 9)
+(5, 9)
+Performing turn 9 of your custom algo strategy
+Building a set with probability 64 at location
+(2, 11), except probability < 0
+(0, 13), except probability < 0
+(1, 12), except probability < 0
+(2, 12), except probability < 0
+(3, 11)
+Building a set with probability 3.0 at location
+(7, 11)
+(7, 12)
+(6, 11)
+Got end state quitting bot.

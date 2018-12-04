@@ -1,0 +1,18 @@
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Performing turn 0 of your custom algo strategy
+Performing turn 1 of your custom algo strategy
+Performing turn 2 of your custom algo strategy
+Error! Unit type: RM
+Error! Unit type: RM
+Performing turn 3 of your custom algo strategy
+Performing turn 4 of your custom algo strategy
+Performing turn 5 of your custom algo strategy
+Error! Unit type: RM
+Performing turn 6 of your custom algo strategy
+Performing turn 7 of your custom algo strategy
+Performing turn 8 of your custom algo strategy
+Performing turn 9 of your custom algo strategy
+Performing turn 10 of your custom algo strategy
+Performing turn 11 of your custom algo strategy
+Got end state quitting bot.
