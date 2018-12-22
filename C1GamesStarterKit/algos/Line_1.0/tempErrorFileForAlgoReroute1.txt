@@ -1,4 +1,10 @@
----------------- Starting Your Algo --------------------
+py : ---------------- Starting Your Algo --------------------
+At D:\Documents\Github\Terminal_Algos\C1GamesStarterKit\algos\Line_1.0\run.ps1:4 char:1
++ py -3 $algoPath
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (---------------...---------------:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
 Configuring your custom algo strategy...
 Performing turn 0 of your custom algo strategy
 Performing turn 1 of your custom algo strategy
@@ -6,4 +12,52 @@ Performing turn 2 of your custom algo strategy
 Performing turn 3 of your custom algo strategy
 Performing turn 4 of your custom algo strategy
 Performing turn 5 of your custom algo strategy
-Got EOF, parent game process must have died, exiting for cleanup
+Performing turn 6 of your custom algo strategy
+Performing turn 7 of your custom algo strategy
+Performing turn 8 of your custom algo strategy
+Performing turn 9 of your custom algo strategy
+Performing turn 10 of your custom algo strategy
+Performing turn 11 of your custom algo strategy
+Performing turn 12 of your custom algo strategy
+Performing turn 13 of your custom algo strategy
+Performing turn 14 of your custom algo strategy
+Performing turn 15 of your custom algo strategy
+Performing turn 16 of your custom algo strategy
+Performing turn 17 of your custom algo strategy
+Performing turn 18 of your custom algo strategy
+Performing turn 19 of your custom algo strategy
+Performing turn 20 of your custom algo strategy
+Performing turn 21 of your custom algo strategy
+Performing turn 22 of your custom algo strategy
+Performing turn 23 of your custom algo strategy
+Performing turn 24 of your custom algo strategy
+Performing turn 25 of your custom algo strategy
+Performing turn 26 of your custom algo strategy
+Performing turn 27 of your custom algo strategy
+Performing turn 28 of your custom algo strategy
+Performing turn 29 of your custom algo strategy
+Performing turn 30 of your custom algo strategy
+Performing turn 31 of your custom algo strategy
+Performing turn 32 of your custom algo strategy
+Performing turn 33 of your custom algo strategy
+Performing turn 34 of your custom algo strategy
+Performing turn 35 of your custom algo strategy
+{"p2Units":[[[1,14,60.0,"38"],[0,14,60.0,"40"],[2,14,60.0,"48"],[3,15,60.0,"50"],[27,14,60.0,"54"],[25,15,60.0,"58"],[4
+,16,60.0,"74"],[6,16,60.0,"110"],[5,15,60.0,"122"],[8,15,60.0,"132"],[7,16,60.0,"136"],[9,16,60.0,"177"],[11,15,60.0,"1
+81"],[12,16,60.0,"183"],[10,16,60.0,"185"],[13,16,41.0,"211"],[14,15,60.0,"237"],[15,16,39.0,"239"],[17,15,60.0,"289"],
+[18,16,60.0,"291"],[16,16,60.0,"293"],[19,16,39.0,"313"],[24,16,60.0,"403"],[21,16,60.0,"554"],[20,15,60.0,"582"],[26,1
+4,60.0,"584"]],[[20,19,30.0,"421"],[19,19,30.0,"429"],[18,19,30.0,"456"],[17,19,30.0,"458"],[16,19,30.0,"468"],[15,19,3
+0.0,"476"],[20,18,30.0,"497"],[19,18,30.0,"516"],[20,20,30.0,"518"],[19,20,30.0,"545"],[18,20,30.0,"556"],[17,20,30.0,"
+558"],[16,20,30.0,"566"],[16,18,30.0,"586"],[17,18,30.0,"588"]],[[1,15,75.0,"36"],[3,16,75.0,"42"],[2,16,75.0,"44"],[2,
+15,75.0,"46"],[26,15,75.0,"52"],[25,16,75.0,"112"],[5,16,75.0,"120"],[8,16,75.0,"130"],[11,16,75.0,"179"],[14,16,44.0,"
+205"],[17,16,75.0,"287"],[21,18,75.0,"350"],[21,19,75.0,"352"],[21,20,75.0,"362"],[22,18,75.0,"370"],[22,19,75.0,"378"]
+,[23,17,51.0,"380"],[23,18,75.0,"411"],[24,17,75.0,"419"],[20,16,75.0,"507"]],[],[],[],[]],"turnInfo":[2,35,115],"p1Sta
+ts":[-1.0,0.0,8.0,0],"endStats":{"duration":15692,"winner":2,"player1":{"stationary_resource_spent":176.0,"dynamic_reso
+urce_spoiled":79.0,"crashed":false,"name":"Line_1.0","dynamic_resource_destroyed":130.0,"dynamic_resource_spent":141.0,
+"stationary_resource_left_on_board":7.0,"points_scored":11.0,"total_computation_time":225},"frames":3054,"player2":{"st
+ationary_resource_spent":195.0,"dynamic_resource_spoiled":21.5,"crashed":false,"name":"Line_7.0","dynamic_resource_dest
+royed":111.0,"dynamic_resource_spent":204.0,"stationary_resource_left_on_board":146.0,"points_scored":31.0,"total_compu
+tation_time":2349},"turns":35},"p1Units":[[[13,1,60.0,"2"],[14,2,60.0,"4"],[0,13,60.0,"14"],[1,13,27.0,"16"]],[],[[2,11
+,75.0,"6"]],[],[],[],[]],"p2Stats":[19.0,2.5,2.5,0],"events":{"selfDestruct":[],"breach":[],"damage":[],"shield":[],"mo
+ve":[],"spawn":[],"death":[],"attack":[],"melee":[]}}
+Got end state quitting bot.

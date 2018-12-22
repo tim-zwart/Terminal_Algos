@@ -1,4 +1,10 @@
----------------- Starting Your Algo --------------------
+py : ---------------- Starting Your Algo --------------------
+At D:\Documents\Github\Terminal_Algos\C1GamesStarterKit\algos\Not_A_Line_6.2\run.ps1:4 char:1
++ py -3 $algoPath
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (---------------...---------------:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
 Configuring your custom algo strategy...
 Tried to add filters to multiple locations at point (3, 11)
 Tried to add filters to multiple locations at point (24, 11)
@@ -139,54 +145,60 @@ Building a set with probability 100.0 at location
 (20, 8)
 Performing turn 1 of your custom algo strategy
 Building a set with probability 0.26 at location
-(5, 8)
-Performing turn 2 of your custom algo strategy
-Building a set with probability 0.18 at location
-(8, 7)
-Building a set with probability 0.16 at location
-(9, 7)
-Building a set with probability 0.14 at location
-(11, 7)
-Performing turn 3 of your custom algo strategy
-Building a set with probability 0.26 at location
 (22, 8)
-Performing turn 4 of your custom algo strategy
-Building a set with probability 4.0 at location
-(25, 11)
-(27, 13)
-(25, 12)
-(26, 12)
-(24, 11)
+Performing turn 2 of your custom algo strategy
+Building a set with probability 2 at location
+(8, 8), except probability < 0
+(8, 9)
+(7, 8), except probability < 0
+(9, 8), except probability < 0
+Building a set with probability 2 at location
+(12, 8), except probability < 0
+(12, 9)
+(11, 8), except probability < 0
 Building a set with probability 0.18 at location
 (19, 7)
-Performing turn 5 of your custom algo strategy
-Building a set with probability 0.14 at location
-(12, 7)
-Performing turn 6 of your custom algo strategy
-Building a set with probability 5.0 at location
-(2, 11)
-(0, 13)
-(1, 12)
-(2, 12)
-(3, 11)
-Building a set with probability 2.0 at location
-(3, 10)
-(4, 10)
-Performing turn 7 of your custom algo strategy
 Building a set with probability 0.16 at location
 (18, 7)
-Performing turn 8 of your custom algo strategy
+Building a set with probability 0.14 at location
+(15, 7)
+Didn't like setting a pending removal flag
+Performing turn 3 of your custom algo strategy
+Not flagging filter for rebuilding at location (0, 13) because it would just be destroyed
+Not flagging filter for rebuilding at location (1, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (2, 12) because it would just be destroyed
+Building a set with probability 37 at location
+(8, 8), except probability < 0
+(8, 9)
+(7, 8), except probability < 0
+(9, 8), except probability < 0
+Performing turn 4 of your custom algo strategy
+Not flagging filter for rebuilding at location (0, 13) because it would just be destroyed
+Not flagging filter for rebuilding at location (1, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (2, 12) because it would just be destroyed
+Building a set with probability 8.0 at location
+(11, 11)
+(11, 12)
+(10, 11)
+(12, 11)
 Building a set with probability 5.0 at location
-(24, 10)
-(23, 10)
-Building a set with probability 4.0 at location
-(23, 9)
-(22, 9)
-Performing turn 9 of your custom algo strategy
-Building a set with probability 65 at location
-(25, 11), except probability < 0
-(27, 13), except probability < 0
-(25, 12), except probability < 0
-(26, 12), except probability < 0
-(24, 11)
-Got end state quitting bot.
+(12, 8)
+(12, 9)
+(11, 8), except probability < 0
+Performing turn 5 of your custom algo strategy
+Not flagging filter for rebuilding at location (0, 13) because it would just be destroyed
+Not flagging filter for rebuilding at location (1, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (2, 12) because it would just be destroyed
+Building a set with probability 172 at location
+(11, 11), except probability < 0
+(11, 12)
+(10, 11), except probability < 0
+(12, 11), except probability < 0
+Building a set with probability 2.0 at location
+(16, 11)
+(16, 12)
+(15, 11)
+(17, 11)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Got EOF, parent game process must have died, exiting for cleanup

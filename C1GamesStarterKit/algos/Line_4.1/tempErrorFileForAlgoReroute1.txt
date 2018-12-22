@@ -1,4 +1,10 @@
----------------- Starting Your Algo --------------------
+py : ---------------- Starting Your Algo --------------------
+At D:\Documents\Github\Terminal_Algos\C1GamesStarterKit\algos\Line_4.1\run.ps1:4 char:1
++ py -3 $algoPath
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (---------------...---------------:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
 Configuring your custom algo strategy...
 Performing turn 0 of your custom algo strategy
 Performing turn 1 of your custom algo strategy
@@ -41,20 +47,4 @@ Performing turn 37 of your custom algo strategy
 Performing turn 38 of your custom algo strategy
 Performing turn 39 of your custom algo strategy
 Performing turn 40 of your custom algo strategy
-Performing turn 41 of your custom algo strategy
-Performing turn 42 of your custom algo strategy
-Performing turn 43 of your custom algo strategy
-Performing turn 44 of your custom algo strategy
-Performing turn 45 of your custom algo strategy
-Performing turn 46 of your custom algo strategy
-Performing turn 47 of your custom algo strategy
-Performing turn 48 of your custom algo strategy
-Performing turn 49 of your custom algo strategy
-Performing turn 50 of your custom algo strategy
-Performing turn 51 of your custom algo strategy
-Performing turn 52 of your custom algo strategy
-Performing turn 53 of your custom algo strategy
-Performing turn 54 of your custom algo strategy
-Performing turn 55 of your custom algo strategy
-Performing turn 56 of your custom algo strategy
 Got end state quitting bot.

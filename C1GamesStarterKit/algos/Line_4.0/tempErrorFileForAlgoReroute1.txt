@@ -1,4 +1,0 @@
----------------- Starting Your Algo --------------------
-Configuring your custom algo strategy...
-Performing turn 0 of your custom algo strategy
-Got end state quitting bot.

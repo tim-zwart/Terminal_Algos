@@ -1,4 +1,10 @@
----------------- Starting Your Algo --------------------
+py : ---------------- Starting Your Algo --------------------
+At D:\Documents\Github\Terminal_Algos\C1GamesStarterKit\algos\Line_5.0\run.ps1:4 char:1
++ py -3 $algoPath
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (---------------...---------------:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
 Configuring your custom algo strategy...
 Tried to add filters to multiple locations at point (2, 12)
 Tried to add filters to multiple locations at point (24, 12)
@@ -179,44 +185,532 @@ Building a set with probability 0.225 at location
 (21, 11)
 (23, 11)
 Performing turn 2 of your custom algo strategy
-Building a set with probability 2 at location
-(2, 12)
+Didn't like setting a pending removal flag
 Didn't like setting a pending removal flag
 Performing turn 3 of your custom algo strategy
-Building a set with probability 2 at location
+Building a set with probability 11 at location
 (1, 13)
+Building a set with probability 2.0 at location
+(10, 11)
+(10, 12)
+(9, 11)
+(11, 11)
+Performing turn 4 of your custom algo strategy
+Building a set with probability 0.5 at location
+(13, 11)
+(13, 12)
+(12, 11)
+(14, 11)
+Performing turn 5 of your custom algo strategy
+Building a set with probability 80 at location
+(10, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 6 of your custom algo strategy
+Building a set with probability 128 at location
+(10, 12)
+(9, 11)
+Building a set with probability 20 at location
+(1, 13)
+Performing turn 7 of your custom algo strategy
+Building a set with probability 14 at location
+(2, 12)
+Building a set with probability 2.5 at location
+(10, 11)
+Performing turn 8 of your custom algo strategy
+Building a set with probability 30 at location
+(10, 12)
 Building a set with probability 0.2109375 at location
 (19, 11)
 (19, 12)
 (18, 11)
 (20, 11)
-Performing turn 4 of your custom algo strategy
-Building a set with probability 80 at location
-(2, 12)
-Building a set with probability 2.5 at location
-(2, 11)
-(3, 11)
-Performing turn 5 of your custom algo strategy
-Building a set with probability 80 at location
-(1, 13)
-Building a set with probability 2.0 at location
-(3, 10)
-Didn't like setting a pending removal flag
-Didn't like setting a pending removal flag
-Performing turn 6 of your custom algo strategy
-Building a set with probability 4.5 at location
-(4, 10)
-Performing turn 7 of your custom algo strategy
-Building a set with probability 125 at location
-(2, 12)
-Building a set with probability 3.5 at location
-(4, 9)
-Performing turn 8 of your custom algo strategy
-Building a set with probability 114 at location
-(3, 11)
-Building a set with probability 4.5 at location
-(5, 9)
 Didn't like setting a pending removal flag
 Didn't like setting a pending removal flag
 Performing turn 9 of your custom algo strategy
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 138 at location
+(10, 12)
+(9, 11)
+Building a set with probability 34 at location
+(13, 12)
+Building a set with probability 20 at location
+(1, 13)
+Performing turn 10 of your custom algo strategy
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 0.20454545454545456 at location
+(16, 11)
+(15, 11)
+(17, 11)
+Performing turn 11 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 90.39999999999999 at location
+(19, 12)
+(18, 11)
+Building a set with probability 42 at location
+(10, 12)
+Building a set with probability 34 at location
+(16, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 12 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Building a set with probability 65 at location
+(16, 12)
+Building a set with probability 41 at location
+(22, 12)
+Building a set with probability 23 at location
+(1, 13)
+Performing turn 13 of your custom algo strategy
+Building a set with probability 118 at location
+(10, 12)
+(9, 11)
+Building a set with probability 26 at location
+(2, 12)
+Building a set with probability 12 at location
+(13, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 14 of your custom algo strategy
+Building a set with probability 96 at location
+(10, 12)
+Building a set with probability 23 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 15 of your custom algo strategy
+Building a set with probability 2.4097222222222223 at location
+(19, 11)
+(19, 12)
+(18, 11)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 16 of your custom algo strategy
+Building a set with probability 30 at location
+(13, 12)
+Building a set with probability 23 at location
+(1, 13)
+Building a set with probability 20 at location
+(16, 12)
+Performing turn 17 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 48 at location
+(16, 12)
+Building a set with probability 28 at location
+(13, 12)
+Building a set with probability 20 at location
+(2, 12)
+Building a set with probability 0.9955882352941176 at location
+(18, 9)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 18 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 38 at location
+(13, 12)
+Building a set with probability 34 at location
+(19, 12)
+Building a set with probability 26 at location
+(1, 13)
+Performing turn 19 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 45 at location
+(13, 12)
+Building a set with probability 3.401041666666667 at location
+(16, 11)
+(16, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 20 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 38 at location
+(13, 12)
+Building a set with probability 24 at location
+(16, 12)
+Building a set with probability 17 at location
+(1, 13)
+Performing turn 21 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 56 at location
+(16, 12)
+Building a set with probability 36 at location
+(13, 12)
+Building a set with probability 20 at location
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 22 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 43 at location
+(13, 12)
+Building a set with probability 34 at location
+(19, 12)
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 3.401041666666667 at location
+(16, 11)
+(16, 12)
+Performing turn 23 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 112.20454545454545 at location
+(16, 12)
+(17, 11)
+Building a set with probability 35 at location
+(13, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 24 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 44 at location
+(16, 12)
+Building a set with probability 28 at location
+(13, 12)
+Building a set with probability 17 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 25 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 47 at location
+(13, 12)
+Building a set with probability 42 at location
+(19, 12)
+Building a set with probability 26 at location
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 26 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 46 at location
+(13, 12)
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 4.401041666666666 at location
+(16, 11)
+(16, 12)
+(15, 11)
+Performing turn 27 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 39 at location
+(16, 12)
+Building a set with probability 27 at location
+(13, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 28 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 44 at location
+(16, 12)
+Building a set with probability 28 at location
+(13, 12)
+Building a set with probability 18 at location
+(19, 12)
+Building a set with probability 17 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 29 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 50 at location
+(13, 12)
+Building a set with probability 26 at location
+(2, 12)
+Building a set with probability 3.901041666666667 at location
+(16, 11)
+(16, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 30 of your custom algo strategy
+Building a set with probability 83 at location
+(13, 12)
+Building a set with probability 65.20454545454545 at location
+(17, 11)
+Building a set with probability 29 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 31 of your custom algo strategy
+Building a set with probability 180.19396551724137 at location
+(13, 12)
+(12, 11)
+Building a set with probability 23 at location
+(1, 13)
+Performing turn 32 of your custom algo strategy
+Building a set with probability 36 at location
+(16, 12)
+Building a set with probability 3.395833333333333 at location
+(13, 11)
+(13, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 33 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 71 at location
+(16, 12)
+Building a set with probability 51 at location
+(13, 12)
+Building a set with probability 36 at location
+(1, 13)
+(2, 12)
+Building a set with probability 32 at location
+(19, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 34 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 60 at location
+(13, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 35 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 156 at location
+(13, 12)
+(12, 11)
+Building a set with probability 22 at location
+(1, 13)
+Performing turn 36 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Building a set with probability 130.4 at location
+(19, 12)
+(18, 11)
+Building a set with probability 48 at location
+(0, 13)
+(2, 12)
+Building a set with probability 3.5 at location
+(13, 11)
+(13, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 37 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 196.4 at location
+(19, 12)
+(18, 11)
+Building a set with probability 67 at location
+(13, 12)
+Building a set with probability 25 at location
+(1, 13)
+Performing turn 38 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 162.4 at location
+(19, 12)
+(18, 11)
+Building a set with probability 114 at location
+(13, 12)
+(14, 11)
+Building a set with probability 22 at location
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 39 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 162.4 at location
+(19, 12)
+(18, 11)
+Building a set with probability 58 at location
+(13, 12)
+Building a set with probability 22 at location
+(1, 13)
+Performing turn 40 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 35 at location
+(13, 12)
+Building a set with probability 22 at location
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 41 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Building a set with probability 75.21428571428571 at location
+(21, 11)
+Building a set with probability 25 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 42 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 154.41071428571428 at location
+(22, 12)
+(21, 11)
+Building a set with probability 98 at location
+(13, 12)
+(14, 11)
+Building a set with probability 54 at location
+(1, 13)
+(2, 12)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 43 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 78.21428571428571 at location
+(21, 11)
+Building a set with probability 26 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 44 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 3.0 at location
+(19, 11)
+(19, 12)
+(18, 11)
+(20, 11)
+Didn't like setting a pending removal flag
+Performing turn 45 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Building a set with probability 55.2 at location
+(24, 12)
+Building a set with probability 26 at location
+(1, 13)
+Performing turn 46 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 23 at location
+(1, 13)
+Building a set with probability 5.5 at location
+(19, 11)
+(19, 12)
+(18, 11)
+(20, 11)
+Performing turn 47 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 20 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 48 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 23 at location
+(1, 13)
+Building a set with probability 9.0 at location
+(19, 11)
+(19, 12)
+(18, 11)
+(20, 11)
+Performing turn 49 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Performing turn 50 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 9.0 at location
+(19, 11)
+(19, 12)
+(18, 11)
+(20, 11)
+Performing turn 51 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Didn't like setting a pending removal flag
+Didn't like setting a pending removal flag
+Performing turn 52 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 8.0 at location
+(22, 11)
+(22, 12)
+(21, 11)
+(23, 11)
+Performing turn 53 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 6.234375 at location
+(24, 11)
+Didn't like setting a pending removal flag
+Performing turn 54 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Building a set with probability 50 at location
+(1, 13)
+(2, 12)
+Building a set with probability 6.234375 at location
+(24, 11)
+Performing turn 55 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Building a set with probability 23 at location
+(1, 13)
+Building a set with probability 6.234375 at location
+(24, 11)
+Didn't like setting a pending removal flag
+Performing turn 56 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 23 at location
+(1, 13)
+Building a set with probability 6.234375 at location
+(24, 11)
+Performing turn 57 of your custom algo strategy
+Not flagging filter for rebuilding at location (7, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (10, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (13, 12) because it would just be destroyed
+Not flagging filter for rebuilding at location (16, 12) because it would just be destroyed
+Building a set with probability 26 at location
+(1, 13)
+Building a set with probability 6.234375 at location
+(24, 11)
+Didn't like setting a pending removal flag
 Got end state quitting bot.

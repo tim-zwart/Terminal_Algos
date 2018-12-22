@@ -1,6 +1,7 @@
 *.DS_Store*
 *.replay
 *__pycache__*
+*tempErrorFileForAlgoReroute*
 
 dist/*
 !dist/.gitkeep
