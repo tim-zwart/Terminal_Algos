@@ -170,6 +170,8 @@ class PathFinding(GameMap):
 
             gamelib.debug_write("Calculated pathfinding in {}s".format(end_time-start_time))
 
+    def complete_propogation(self, )
+
     def propogate_node(self, loc, chain_propogation=False):
 
         x, y = loc[0], loc[1]

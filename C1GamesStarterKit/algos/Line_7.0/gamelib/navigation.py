@@ -36,7 +36,7 @@ class Node:
         * pathlength: The distance between this node and the target location
 
     """
-    def __init__(self, x=-1, y=-1, tr=-1, tl=-1, bl=-1, br=-1):
+    def __init__(self, x=-1, y=-1, tr=-1, tl=-1, bl=-1, br=-1, temptr=False, temptl=False, tempbl=False, tempbr=False):
         self.x = x
         self.y = y
         self.tr = tr
@@ -50,6 +50,7 @@ class Node:
         # 2: bl
         # 3: br
         self.dist = [tr, tl, bl, br]
+        self.temp = [temptr, temptl, tempbl, tempbr]
 
         self.visited_idealness = False
         self.visited_validate = False
@@ -143,6 +144,8 @@ class PathFinding(GameMap):
 
             self.propogate_from_set(changed_locs)
 
+            gamelib.debug_write("Did original propogation")
+
             # Check for missing spots
             in_arena_bounds = self.in_arena_bounds
 
@@ -151,24 +154,35 @@ class PathFinding(GameMap):
             x_value_less = [False, True, True, False]
 
             while missing:
+                missing = False
+
                 to_prop = set()
 
                 for x in range(0, 28):
                     for y in range(0, 28):
                         if in_arena_bounds([x, y]):
-                            for i in range(0, 4)
-                                if self.pathfinding_map.dist[i] == -1:
+                            for i in range(0, 4):
+                                if self.pathfinding_map[x][y].dist[i] == -1:
                                     # Check against best node
                                     if best_loc[i] == None or y > best_loc[i][1] or (y == best_loc[i][1] and ((x > best_loc[i][0]) != x_value_less[i])):
                                         best_loc[i] = [x, y]
                                         if not missing:
                                             missing = True
 
-                for loc in best_loc:
-                    if loc != None:
-                        to_prop.add(loc)
+                if missing:
+                    gamelib.debug_write("o no something missing")
+                    i=0
+                    for loc in best_loc:
+                        if loc != None:
+                            to_prop.add(Coord(loc))
+                            self.pathfinding_map[loc[0]][loc[1]].dist[i] = 1
+                            self.pathfinding_map[loc[0]][loc[1]].temp[i] = True
 
-                self.propogate_from_set(to_prop, True)
+                        i += 1
+
+                    self.propogate_from_set(to_prop, True)
+
+            gamelib.debug_write("Finished 'missing' values")
 
 
             self.calculated = True
@@ -179,29 +193,38 @@ class PathFinding(GameMap):
 
     def propogate_from_set(self, locs, temp=False):
 
+        #if len(locs) == 1:
+            #gamelib.debug_write("There is only one")
+
         changed_locs = locs
         new_changes = set()
-
+        i=0
         while True:
+            start_time_2 = time.clock()
+            gamelib.debug_write("we looping at i={} and len={}".format(i, len(changed_locs)))
             any_changed = False
 
             for coord in changed_locs:
+                gamelib.debug_write("Trying with new set of changes")
                 local_changes = self.propogate_node(coord.loc)
                 if len(local_changes) > 0:
+                    gamelib.debug_write("{} changes".format(len(local_changes)))
                     for loc in local_changes:
                         new_changes.add(Coord(loc))
-
+                    gamelib.debug_write("Made changes set")
                     if not any_changed:
                         any_changed = True
+                gamelib.debug_write("Done with this set of changes")
 
 
             if not any_changed:
-                #gamelib.debug_write("i = {} took {}s to compute. Nothing happened.".format(i, time.clock()-start_time_2))
+                gamelib.debug_write("i = {} took {}s to compute. Nothing happened.".format(i, time.clock()-start_time_2))
                 break
             else:
                 changed_locs = set(new_changes)
                 new_changes = set()
-                #gamelib.debug_write("i = {} took {}s to compute".format(i, time.clock()-start_time_2))
+                gamelib.debug_write("i = {} took {}s to compute".format(i, time.clock()-start_time_2))
+            i+=1
             
 
 
@@ -221,6 +244,7 @@ class PathFinding(GameMap):
         dirs = []
 
         node_dist = pathfinding_map[x][y].dist
+        node_temp = pathfinding_map[x][y].temp
 
         for i in range(0, 4):
             if node_dist[i] != -1:
@@ -235,12 +259,14 @@ class PathFinding(GameMap):
             next_node = pathfinding_map[new_loc[0]][new_loc[1]]
 
             for i in dirs:
-                if next_node.dist[i] == -1:# or next_node.dist[i] > node_dist[i] + 1:
+                if next_node.dist[i] == -1 or (next_node.temp[i] and not node_temp[i]):# or next_node.dist[i] > node_dist[i] + 1:
                     next_node.dist[i] = node_dist[i] + 1
                     if not any_changed:
                         any_changed = True
                     if not loc_change:
                         loc_change = True
+
+                    next_node.temp[i] = node_temp[i]
 
             if loc_change and not contains_stationary_unit(new_loc):
                 further_propogations.append(new_loc)
