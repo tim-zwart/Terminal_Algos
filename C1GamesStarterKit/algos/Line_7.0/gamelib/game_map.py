@@ -94,6 +94,22 @@ class GameMap:
         warnings.warn("{} is out of bounds.".format(str(location)))
 
 
+    def contains_stationary_unit(self, location):
+        """Check if a location is blocked
+
+        Args:
+            * location: The location to check
+
+        Returns:
+            True if there is a stationary unit at the location, False otherwise
+        """
+        x, y = map(int, location)
+        for unit in self.__getitem__[x,y]:
+            if unit.stationary:
+                return unit
+        return False
+
+
     def get_edge_locations(self, quadrant_description):
         """Takes in an edge description and returns a list of locations.
         

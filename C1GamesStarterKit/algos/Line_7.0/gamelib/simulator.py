@@ -347,8 +347,10 @@ class Simulator:
                 gamelib.debug_write("Hey we actually destroyed a unit yay")
                 if unit.unit_type == ENCRYPTOR:
                     encryptor_list.remove(unit)
-                gamelib.debug_write("Unit destroyed, re-pathing")
-                game_map.propogate_from_set(set(gamelib.Coord(unit.loc)))
+                gamelib.debug_write("Unit destroyed, re-pathing. Frame = {}, loc = {}".format(self.curr_frame, unit.loc))
+                new_loc = set()
+                new_loc.add(gamelib.Coord(unit.loc))
+                game_map.propogate_from_set(new_loc)
                 gamelib.debug_write("Done re-pathing")
                     
         if len(self.unit_list) == 0:

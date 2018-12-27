@@ -152,7 +152,7 @@ class PathFinding(GameMap):
             missing = True
             best_loc = [None, None, None, None]
             x_value_less = [False, True, True, False]
-
+            """
             while missing:
                 missing = False
 
@@ -160,7 +160,7 @@ class PathFinding(GameMap):
 
                 for x in range(0, 28):
                     for y in range(0, 28):
-                        if in_arena_bounds([x, y]):
+                        if in_arena_bounds([x, y]) and not self.contains_stationary_unit([x, y]):
                             for i in range(0, 4):
                                 if self.pathfinding_map[x][y].dist[i] == -1:
                                     # Check against best node
@@ -170,7 +170,7 @@ class PathFinding(GameMap):
                                             missing = True
 
                 if missing:
-                    gamelib.debug_write("o no something missing")
+                    #gamelib.debug_write("o no something missing")
                     i=0
                     for loc in best_loc:
                         if loc != None:
@@ -181,7 +181,7 @@ class PathFinding(GameMap):
                         i += 1
 
                     self.propogate_from_set(to_prop, True)
-
+            """
             gamelib.debug_write("Finished 'missing' values")
 
 
@@ -193,42 +193,39 @@ class PathFinding(GameMap):
 
     def propogate_from_set(self, locs, temp=False):
 
-        #if len(locs) == 1:
-            #gamelib.debug_write("There is only one")
-
         changed_locs = locs
         new_changes = set()
         i=0
         while True:
             start_time_2 = time.clock()
-            gamelib.debug_write("we looping at i={} and len={}".format(i, len(changed_locs)))
+            #gamelib.debug_write("we looping at i={} and len={}".format(i, len(changed_locs)))
             any_changed = False
 
             for coord in changed_locs:
-                gamelib.debug_write("Trying with new set of changes")
+                #gamelib.debug_write("Trying with new set of changes")
                 local_changes = self.propogate_node(coord.loc)
                 if len(local_changes) > 0:
-                    gamelib.debug_write("{} changes".format(len(local_changes)))
+                    #gamelib.debug_write("{} changes".format(len(local_changes)))
                     for loc in local_changes:
                         new_changes.add(Coord(loc))
-                    gamelib.debug_write("Made changes set")
+                    #gamelib.debug_write("Made changes set")
                     if not any_changed:
                         any_changed = True
-                gamelib.debug_write("Done with this set of changes")
+                #gamelib.debug_write("Done with this set of changes")
 
 
             if not any_changed:
-                gamelib.debug_write("i = {} took {}s to compute. Nothing happened.".format(i, time.clock()-start_time_2))
+                #gamelib.debug_write("i = {} took {}s to compute. Nothing happened.".format(i, time.clock()-start_time_2))
                 break
             else:
                 changed_locs = set(new_changes)
                 new_changes = set()
-                gamelib.debug_write("i = {} took {}s to compute".format(i, time.clock()-start_time_2))
+                #gamelib.debug_write("i = {} took {}s to compute".format(i, time.clock()-start_time_2))
             i+=1
             
 
 
-    def propogate_node(self, loc, chain_propogation=False):
+    def propogate_node(self, loc):
 
         x, y = loc[0], loc[1]
         locs = [[x, y+1], [x, y-1], [x-1, y], [x+1, y]]
@@ -270,14 +267,6 @@ class PathFinding(GameMap):
 
             if loc_change and not contains_stationary_unit(new_loc):
                 further_propogations.append(new_loc)
-
-
-        if chain_propogation and any_changed:
-            for next_loc in further_propogations:
-                try:
-                    propogate_node(next_loc, True)
-                except RecursionError:
-                    gamelib.debug_write("Too much recursion!")
 
         return further_propogations
 
