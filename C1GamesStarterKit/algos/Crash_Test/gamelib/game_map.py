@@ -1,4 +1,3 @@
-import gamelib
 import math
 import warnings
 from .unit import GameUnit
@@ -22,7 +21,7 @@ class GameMap:
         * BOTTOM_RIGHT (int): A constant that represents the bottom right edge
 
     """
-    def __init__(self, config, storage):
+    def __init__(self, config):
         """Initializes constants and game map
 
         Args:
@@ -36,33 +35,18 @@ class GameMap:
         self.TOP_LEFT = 1
         self.BOTTOM_LEFT = 2
         self.BOTTOM_RIGHT = 3
-        self.map = self.__empty_grid()
+        self.__map = self.__empty_grid()
         self.__start = [13,0]
-
-        self.storage = storage
-
-        self.edges = self.get_edges()
-
-        self.in_arena_bounds = storage.in_arena_bounds
-
-        self.locs_in_range_1 = storage.locs_in_range_1
-        self.locs_in_range_3 = storage.locs_in_range_3
-        self.locs_in_range_5 = storage.locs_in_range_5
-
-        self.locs_in_range_3_sorted = storage.split_locs_3
-        self.locs_in_range_5_sorted = storage.split_locs_5
-
     
     def __getitem__(self, location):
-        return self.map[location[0]][location[1]]
-        #if len(location) == 2 and self.in_arena_bounds(location):
-        #    x,y = location
-        #    return self.map[x][y]
-        #self._invalid_coordinates(location)
+        if len(location) == 2 and self.in_arena_bounds(location):
+            x,y = location
+            return self.__map[x][y]
+        self._invalid_coordinates(location)
 
     def __setitem__(self, location, val):
         if type(location) == tuple and len(location) == 2 and self.in_arena_bounds(location):
-            self.map[location[0]][location[1]] = val
+            self.__map[location[0]][location[1]] = val
             return
         self._invalid_coordinates(location)
 
@@ -94,22 +78,30 @@ class GameMap:
     def _invalid_coordinates(self, location):
         warnings.warn("{} is out of bounds.".format(str(location)))
 
-
-    def contains_stationary_unit(self, location):
-        """Check if a location is blocked
+    def in_arena_bounds(self, location):
+        """Checks if the given location is inside the diamond shaped game board.
 
         Args:
-            * location: The location to check
+            * location: A map location
 
         Returns:
-            True if there is a stationary unit at the location, False otherwise
+            True if the location is on the board, False otherwise
+        
         """
-        x, y = map(int, location)
-        for unit in self.__getitem__[x,y]:
-            if unit.stationary:
-                return unit
-        return False
+        x, y = location
+        half_board = self.HALF_ARENA
 
+        row_size = y + 1
+        startx = half_board - row_size
+        endx = startx + (2 * row_size) - 1
+        top_half_check = (y < self.HALF_ARENA and x >= startx and x <= endx)
+
+        row_size = (self.ARENA_SIZE - 1 - y) + 1
+        startx = half_board - row_size
+        endx = startx + (2 * row_size) - 1
+        bottom_half_check = (y >= self.HALF_ARENA and x >= startx and x <= endx)
+
+        return bottom_half_check or top_half_check
 
     def get_edge_locations(self, quadrant_description):
         """Takes in an edge description and returns a list of locations.
@@ -128,12 +120,39 @@ class GameMap:
         if not quadrant_description in [self.TOP_LEFT, self.TOP_RIGHT, self.BOTTOM_LEFT, self.BOTTOM_RIGHT]:
             warnings.warn("Passed invalid quadrent_description '{}'. See the documentation for valid inputs for get_edge_locations.".format(quadrant_description))
 
-        return self.edges[quadrant_description]
+        edges = self.get_edges()
+        return edges[quadrant_description]
 
     def get_edges(self):
-        return self.storage.edges
+        """Gets all of the edges and their edge locations
+
+        Returns:
+            A list with four lists inside of it of locations corresponding to the four edges.
+            [0] = top_right, [1] = top_left, [2] = bottom_left, [3] = bottom_right.
+        """
+        top_right = []
+        for num in range(0, self.HALF_ARENA):
+            x = self.HALF_ARENA + num
+            y = self.ARENA_SIZE - 1 - num
+            top_right.append([int(x), int(y)])
+        top_left = []
+        for num in range(0, self.HALF_ARENA):
+            x = self.HALF_ARENA - 1 - num
+            y = self.ARENA_SIZE - 1 - num
+            top_left.append([int(x), int(y)])
+        bottom_left = []
+        for num in range(0, self.HALF_ARENA):
+            x = self.HALF_ARENA - 1 - num
+            y = num
+            bottom_left.append([int(x), int(y)])
+        bottom_right = []
+        for num in range(0, self.HALF_ARENA):
+            x = self.HALF_ARENA + num
+            y = num
+            bottom_right.append([int(x), int(y)])
+        return [top_right, top_left, bottom_left, bottom_right]
     
-    def add_unit(self, unit_type, location, player_index=0, id=None, path_target=None):
+    def add_unit(self, unit_type, location, player_index=0):
         """Add a single GameUnit to the map at the given location.
 
         Args:
@@ -150,12 +169,11 @@ class GameMap:
             warnings.warn("Player index {} is invalid. Player index should be 0 or 1.".format(player_index))
 
         x, y = location
-        new_unit = GameUnit(unit_type, self.config, player_index, id, None, location[0], location[1])
-        new_unit.path_target = path_target
+        new_unit = GameUnit(unit_type, self.config, player_index, None, location[0], location[1])
         if not new_unit.stationary:
-            self.map[x][y].append(new_unit)
+            self.__map[x][y].append(new_unit)
         else:
-            self.map[x][y] = [new_unit]
+            self.__map[x][y] = [new_unit]
 
     def remove_unit(self, location):
         """Remove all units on the map in the given location.
@@ -170,18 +188,9 @@ class GameMap:
             self._invalid_coordinates(location)
         
         x, y = location
-        self.map[x][y] = []
+        self.__map[x][y] = []
 
-    def get_locations_in_range_sorted(self, location, radius):
-        if radius == 3:
-            return self.loc_in_range_3_sorted
-        elif radius == 5:
-            return self.loc_in_range_5_sorted
-        else:
-            return -1
-
-
-    def get_locations_in_range(self, location, radius, bounds=True, raw=False):
+    def get_locations_in_range(self, location, radius):
         """Gets locations in a circular area around a location
 
         Args:
@@ -194,38 +203,17 @@ class GameMap:
         """
         if radius < 0 or radius > self.ARENA_SIZE:
             warnings.warn("Radius {} was passed to get_locations_in_range. Expected integer between 0 and {}".format(radius, self.ARENA_SIZE))
-        if bounds and not self.in_arena_bounds(location):
+        if not self.in_arena_bounds(location):
             self._invalid_coordinates(location)
 
         x, y = location
         locations = []
-
-        if not raw and (radius == 1 or radius == 3 or radius == 5):
-            if radius == 1:
-                locs_in_range = self.locs_in_range_1
-            elif radius == 3:
-                locs_in_range = self.locs_in_range_3
-            else:
-                locs_in_range = self.locs_in_range_5
-            if not bounds and location == [0,0]:
-                return locs_in_range
-            for loc in locs_in_range:
-                new_x = loc[0] + x
-                new_y = loc[1] + y
-                if not bounds or self.in_arena_bounds([new_x, new_y]):
-                    locations.append([new_x, new_y])
-
-            return locations
-
-
         for i in range(int(x - radius), int(x + radius + 1)):
             for j in range(int(y - radius), int(y + radius + 1)):
                 new_location = [i, j]
-
                 # A unit with a given range affects all locations who's centers are within that range + 0.51 so we add 0.51 here
-                if ((not bounds) or self.in_arena_bounds(new_location)) and self.distance_between_locations(location, new_location) < radius + 0.51:
+                if self.in_arena_bounds(new_location) and self.distance_between_locations(location, new_location) < radius + 0.51:
                     locations.append(new_location)
-
         return locations
 
     def distance_between_locations(self, location_1, location_2):
@@ -243,42 +231,3 @@ class GameMap:
         x2, y2 = location_2
 
         return math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
-
-class Map:
-
-    def __init__(config):
-        self.config = config
-        self.grid = self.__empty_grid()
-
-    def __empty_grid(self):
-        grid = []
-        for x in range(0, self.ARENA_SIZE):
-            grid.append([])
-            for _ in range(0, self.ARENA_SIZE):
-                grid[x].append([])
-        return grid
-    
-    def __getitem__(self, location):
-        if len(location) == 2 and self.in_arena_bounds(location):
-            x,y = location
-            return self.grid[x][y]
-        self._invalid_coordinates(location)
-
-    def __setitem__(self, location, val):
-        if type(location) == tuple and len(location) == 2 and self.in_arena_bounds(location):
-            self.grid[location[0]][location[1]] = val
-            return
-        self._invalid_coordinates(location)
-
-    def _invalid_coordinates(self, location):
-        warnings.warn("{} is out of bounds.".format(str(location)))
-
-
-class MapLoc:
-
-    def __init__(config):
-        self.config = config
-
-        self.defencePriority = 0
-        self.offencePriority = 0
-        self.priority = 0

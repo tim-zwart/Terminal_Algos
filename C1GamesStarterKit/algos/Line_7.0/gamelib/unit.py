@@ -59,6 +59,7 @@ class GameUnit:
         self.actual_stability = self.stability
         self.encryption = []
         self.id = id
+        self.tiles_moved = 0
 
         self.d_target = None
 

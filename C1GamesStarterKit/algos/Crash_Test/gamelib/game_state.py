@@ -1,9 +1,8 @@
 import math
 import json
 import warnings
-import gamelib
 
-from .navigation import ShortestPathFinder, PathFinding
+from .navigation import ShortestPathFinder
 from .util import send_command, debug_write
 from .unit import GameUnit
 from .game_map import GameMap
@@ -38,7 +37,7 @@ class GameState:
         * enemy_time (int): Your opponents current remaining time
     """
 
-    def __init__(self, config, serialized_string, storage, pathfinding=False):
+    def __init__(self, config, serialized_string):
         """ Setup a turns variables using arguments passed
 
         Args:
@@ -74,13 +73,7 @@ class GameState:
         self.BITS = 0
         self.CORES = 1
 
-        if not pathfinding:
-            self.game_map = GameMap(self.config, storage)
-        else:
-            self.game_map = PathFinding(self.config, storage)
-        
-        self.units = []
-        self.unitID = 0
+        self.game_map = GameMap(self.config)
         self._shortest_path_finder = ShortestPathFinder()
         self._build_stack = []
         self._deploy_stack = []
@@ -89,21 +82,10 @@ class GameState:
                 {'cores': 0, 'bits': 0}]  # player 1, which is the opponent
         self.__parse_state(serialized_string)
 
-        self.storage = storage
-
-        self.locs_in_range_3 = self.storage.locs_in_range_3
-        self.locs_in_range_5 = self.storage.locs_in_range_5
-
-        self.locs_in_range_3_sorted = self.storage.split_locs_3
-        self.locs_in_range_5_sorted = self.storage.split_locs_5
-
-
     def __parse_state(self, state_line):
         """
         Fills in map based on the serialized game state so that self.game_map[x,y] is a list of GameUnits at that location.
         state_line is the game state as a json string.
-
-        
         """
         state = json.loads(state_line)
 
@@ -133,8 +115,6 @@ class GameState:
         Helper function for __parse_state to add units to the map.
         """
         typedef = self.config.get("unitInformation")
-        #gamelib.debug_write("Config: {}".format(self.config))
-        #gamelib.debug_write("Config: {}".format(enumerate(units)))
         for i, unit_types in enumerate(units):
             for uinfo in unit_types:
                 unit_type = typedef[i].get("shorthand")
@@ -143,29 +123,9 @@ class GameState:
                 hp = float(shp)
                 # This depends on RM always being the last type to be processed
                 if unit_type == REMOVE:
-                    try:
-                        self.game_map[x,y][0].pending_removal = True
-                    except:
-                        debug_write("Didn't like setting a pending removal flag")
-                else:
-                    unit = GameUnit(unit_type, self.config, player_number, self.unitID, hp, x, y)
-                    self.game_map[x,y].append(unit)
-                    self.unitID += 1
-                if not is_stationary(unit_type):
-                    self.units.append(unit)
-                    if unit.loc in self.game_map.get_edge_locations(self.game_map.TOP_RIGHT):
-                        unit.path_target = self.game_map.BOTTOM_LEFT
-                    if unit.loc in self.game_map.get_edge_locations(self.game_map.TOP_LEFT):
-                        unit.path_target = self.game_map.BOTTOM_RIGHT
-                    if unit.loc in self.game_map.get_edge_locations(self.game_map.BOTTOM_LEFT):
-                        unit.path_target = self.game_map.TOP_RIGHT
-                    if unit.loc in self.game_map.get_edge_locations(self.game_map.BOTTOM_RIGHT):
-                        unit.path_target = self.game_map.TOP_LEFT
-                    #debug_write("Here is an information unit! Location:{},{}".format(x,y))
-
-
-    def getUnits(self):
-        return self.units
+                    self.game_map[x,y][0].pending_removal = True
+                unit = GameUnit(unit_type, self.config, player_number, hp, x, y)
+                self.game_map[x,y].append(unit)
 
     def __resource_required(self, unit_type):
         return self.CORES if is_stationary(unit_type) else self.BITS
@@ -221,7 +181,7 @@ class GameState:
         resources = self._player_resources[player_index]
         return resources.get(resource_key, None)
 
-    def number_affordable(self, unit_type, player_index=0):
+    def number_affordable(self, unit_type):
         """The number of units of a given type we can afford
 
         Args:
@@ -237,7 +197,7 @@ class GameState:
 
         cost = self.type_cost(unit_type)
         resource_type = self.__resource_required(unit_type)
-        player_held = self.get_resource(resource_type, player_index)
+        player_held = self.get_resource(resource_type)
         return math.floor(player_held / cost)
 
     def project_future_bits(self, turns_in_future=1, player_index=0, current_bits=None):
@@ -286,7 +246,7 @@ class GameState:
         unit_def = self.config["unitInformation"][UNIT_TYPE_TO_INDEX[unit_type]]
         return unit_def.get('cost')
 
-    def can_spawn(self, unit_type, location, num=1, player_index=0, cost=True):
+    def can_spawn(self, unit_type, location, num=1):
         """Check if we can spawn a unit at a location. 
 
         To units, we need to be able to afford them, and the location must be
@@ -309,16 +269,11 @@ class GameState:
         if not self.game_map.in_arena_bounds(location):
             return False
 
-        affordable = (not cost) or (self.number_affordable(unit_type) >= num)
+        affordable = self.number_affordable(unit_type) >= num
         stationary = is_stationary(unit_type)
         blocked = self.contains_stationary_unit(location) or (stationary and len(self.game_map[location[0],location[1]]) > 0)
-        if player_index == 0:
-            correct_territory = location[1] < self.HALF_ARENA
-        elif player_index == 1:
-            correct_territory = location[1] >= self.HALF_ARENA
-        else:
-            correct_territory = False
-        on_edge = location in (self.game_map.edges[0] + self.game_map.edges[1] + self.game_map.edges[2] + self.game_map.edges[3])
+        correct_territory = location[1] < self.HALF_ARENA
+        on_edge = location in (self.game_map.get_edge_locations(self.game_map.BOTTOM_LEFT) + self.game_map.get_edge_locations(self.game_map.BOTTOM_RIGHT))
 
         return (affordable and correct_territory and not blocked and
                 (stationary or on_edge) and
@@ -353,74 +308,12 @@ class GameState:
                     cost = self.type_cost(unit_type)
                     resource_type = self.__resource_required(unit_type)
                     self.__set_resource(resource_type, 0 - cost)
-
-                    path_target = None
-                    if location in self.game_map.get_edge_locations(self.game_map.TOP_RIGHT):
-                        path_target = self.game_map.BOTTOM_LEFT
-                    if location in self.game_map.get_edge_locations(self.game_map.TOP_LEFT):
-                        path_target = self.game_map.BOTTOM_RIGHT
-                    if location in self.game_map.get_edge_locations(self.game_map.BOTTOM_LEFT):
-                        path_target = self.game_map.TOP_RIGHT
-                    if location in self.game_map.get_edge_locations(self.game_map.BOTTOM_RIGHT):
-                        path_target = self.game_map.TOP_LEFT
-
-                    self.game_map.add_unit(unit_type, location, 0, self.unitID, path_target)
-
-                    self.unitID += 1
-
+                    self.game_map.add_unit(unit_type, location, 0)
                     if is_stationary(unit_type):
                         self._build_stack.append((unit_type, x, y))
                     else:
                         self._deploy_stack.append((unit_type, x, y))
                     spawned_units += 1
-                else:
-                    warnings.warn("Could not spawn {} number {} at location {}. Location is blocked, invalid, or you don't have enough resources.".format(unit_type, i, location))
-        return spawned_units
-
-    def attempt_add(self, unit_type, locations, num=1, player_index=0):
-        """Attempts to spawn new units with the type given in the given locations.
-
-        Args:
-            * unit_type: The type of unit we want to spawn
-            * locations: A single location or list of locations to spawn units at
-            * num: The number of units of unit_type to deploy at the given location(s)
-
-        Returns:
-            The number of units successfully spawned
-
-        """
-        
-        if unit_type not in ALL_UNITS:
-            self._invalid_unit(unit_type)
-            return
-        if num < 1:
-            warnings.warn("Attempted to spawn fewer than one units! ({})".format(num))
-            return
-      
-        if type(locations[0]) == int:
-            locations = [locations]
-            
-        spawned_units = 0
-        for location in locations:
-            for i in range(num):
-                if self.can_spawn(unit_type, location, num, player_index, False):
-                    x, y = map(int, location)
-                    cost = self.type_cost(unit_type)
-                    resource_type = self.__resource_required(unit_type)
-                    self.__set_resource(resource_type, 0 - cost)
-
-                    path_target = None
-                    if location in self.game_map.get_edge_locations(self.game_map.TOP_RIGHT):
-                        path_target = self.game_map.BOTTOM_LEFT
-                    if location in self.game_map.get_edge_locations(self.game_map.TOP_LEFT):
-                        path_target = self.game_map.BOTTOM_RIGHT
-                    if location in self.game_map.get_edge_locations(self.game_map.BOTTOM_LEFT):
-                        path_target = self.game_map.TOP_RIGHT
-                    if location in self.game_map.get_edge_locations(self.game_map.BOTTOM_RIGHT):
-                        path_target = self.game_map.TOP_LEFT
-                    self.game_map.add_unit(unit_type, location, player_index, self.unitID, path_target)
-
-                    self.unitID += 1
                 else:
                     warnings.warn("Could not spawn {} number {} at location {}. Location is blocked, invalid, or you don't have enough resources.".format(unit_type, i, location))
         return spawned_units
@@ -465,27 +358,6 @@ class GameState:
         end_points = self.game_map.get_edge_locations(target_edge)
         return self._shortest_path_finder.navigate_multiple_endpoints(start_location, end_points, self)
 
-    def find_path_to_edges(self, start_location):
-        """Gets the path a unit at a given location would take
-
-        Args:
-            * start_location: The location of a hypothetical unit
-            * target_edge: The edge the unit wants to reach. game_map.TOP_LEFT, game_map.BOTTOM_RIGHT, etc.
-
-        Returns:
-            A list of locations corresponding to the path the unit would take 
-            to get from it's starting location to the best available end location
-
-        """
-        if self.contains_stationary_unit(start_location):
-            warnings.warn("Attempted to perform pathing from blocked starting location {}".format(start_location))
-            return
-        if start_location[1] <= 13:
-            end_points = self.game_map.get_edge_locations(self.game_map.TOP_LEFT) + self.game_map.get_edge_locations(self.game_map.TOP_RIGHT)
-        else:
-            end_points = self.game_map.get_edge_locations(self.game_map.BOTTOM_LEFT) + self.game_map.get_edge_locations(self.game_map.BOTTOM_RIGHT)
-        return self._shortest_path_finder.navigate_multiple_endpoints(start_location, end_points, self)
-
     def contains_stationary_unit(self, location):
         """Check if a location is blocked
 
@@ -513,6 +385,3 @@ class GameState:
         else:
             warnings.resetwarnings()
 
-class GameMap2:
-    def __init__(self, config):
-        self.m = GameMap(config)

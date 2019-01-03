@@ -89,6 +89,8 @@ class AlgoStrategy(gamelib.AlgoCore):
         self.encryptor_locations = [[ 7, 9],[ 8, 9],[ 9, 9],[ 10, 9],[ 11, 9],[ 12, 9],[ 13, 9],[ 14, 9],[ 15, 9],[ 16, 9],[ 17, 9],[ 18, 9],[ 19, 9],[ 20, 9],[ 21, 9],[ 7, 8],[ 8, 8],[ 9, 8],[ 10, 8],[ 11, 8],[ 12, 8],[ 13, 8],[ 14, 8],[ 15, 8],[ 16, 8],[ 17, 8],[ 18, 8],[ 19, 8],[ 20, 8],[ 7, 7],[ 8, 7],[ 9, 7],[ 10, 7],[ 11, 7],[ 12, 7],[ 13, 7],[ 14, 7],[ 15, 7],[ 16, 7],[ 17, 7],[ 18, 7],[ 19, 7]]
 
         self.build_sets = []
+        self.n_simuls = []
+        self.n_simuls_2 = []
 
         for loc in self.destructor_locations:
             self.ideal_map.add_unit(DESTRUCTOR, loc, 0)
@@ -153,8 +155,11 @@ class AlgoStrategy(gamelib.AlgoCore):
     strategy and can safey be replaced for your custom algo.
     """
     def starter_strategy(self, game_state):
-        self.build_base_defences(game_state)
         import timeit
+
+        self.turn_start = time.clock()
+
+        self.build_base_defences(game_state)
         
         self.deploy_attackers(game_state)
 
@@ -267,7 +272,7 @@ class AlgoStrategy(gamelib.AlgoCore):
                         pass
 
                     if unit_path_iter >= 0:
-                        build_set.probability += (len(unit_path)*2 - unit_path_iter) / (len(unit_path)*2) / 4
+                        build_set.probability += (len(unit_path)*2 - unit_path_iter) / (len(unit_path)*2) / 8
 
                 else:
                     build.probability = -1
@@ -289,8 +294,6 @@ class AlgoStrategy(gamelib.AlgoCore):
         a=0
 
         for build_set in necessary_sets:
-            if game_state.turn_number % 2 == 0:
-                return
             if a < 5:
                 pass
             if game_state.get_resource(game_state.CORES) < build_set.cost:
@@ -304,18 +307,114 @@ class AlgoStrategy(gamelib.AlgoCore):
         
 
     def deploy_attackers(self, game_state):
+
         # Determine unit attack type
         import cProfile, pstats, io
         pr = cProfile.Profile()
         pr.enable()
-
+        
         #start_time = time.clock()
 
         base_simul = gamelib.Simulator(self.config, self.turn_state, self.storage)
         base_simul.calculate()
-
+        last_ideal = 0
+        """
+        time_start = time.clock()
         for _ in range(0, 100):
+            simul = gamelib.Simulator(self.config, self.turn_state, self.storage)
 
+            simul.game_state.game_map.copy_pathing(base_simul.game_state.game_map.pathfinding_map)
+            simul.calculated = True
+
+            simul.game_state.attempt_add(EMP, self.emp_spawn_loc, game_state.number_affordable(EMP), 0)
+            enemy_info_spawn = [27-24, 27-10]
+            simul.game_state.attempt_add(EMP, enemy_info_spawn, game_state.number_affordable(EMP, 1), 1)
+            simul.simulate()
+            last_ideal = simul.idealness()
+
+        time_mid = time.clock()
+        for _ in range(0, 100):
+            simul = gamelib.Simulator_2(self.config, self.turn_state, self.storage)
+
+            simul.game_state.game_map.copy_pathing(base_simul.game_state.game_map.pathfinding_map)
+            simul.calculated = True
+
+            simul.game_state.attempt_add(EMP, self.emp_spawn_loc, game_state.number_affordable(EMP), 0)
+            enemy_info_spawn = [27-24, 27-10]
+            simul.game_state.attempt_add(EMP, enemy_info_spawn, game_state.number_affordable(EMP, 1), 1)
+            simul.simulate()
+            last_ideal = simul.idealness()
+        time_end = time.clock()
+
+        """
+
+        attacks = []
+
+        # Check all possible attacks from the enemy
+        for x in range(0, 28):
+            if x < 14:
+                y = x + 14
+            else:
+                y = 41 - x
+
+            if game_state.can_spawn(SCRAMBLER, [x, y], 1, 1):
+
+                # Check EMPs
+                simul = gamelib.Simulator(self.config, self.turn_state, self.storage)
+
+                simul.game_state.game_map.copy_pathing(base_simul.game_state.game_map.pathfinding_map)
+                simul.calculated = True
+
+                enemy_info_spawn = [x, y]
+                simul.game_state.attempt_add(EMP, enemy_info_spawn, game_state.number_affordable(EMP, 1), 1)
+                simul.simulate()
+                attacks.append(gamelib.Possible_Attack(EMP, enemy_info_spawn, simul.idealness()))
+
+                # Check Scramblers                
+                simul = gamelib.Simulator(self.config, self.turn_state, self.storage)
+
+                simul.game_state.game_map.copy_pathing(base_simul.game_state.game_map.pathfinding_map)
+                simul.calculated = True
+
+                enemy_info_spawn = [x, y]
+                simul.game_state.attempt_add(SCRAMBLER, enemy_info_spawn, game_state.number_affordable(SCRAMBLER, 1), 1)
+                simul.simulate()
+                attacks.append(gamelib.Possible_Attack(SCRAMBLER, enemy_info_spawn, simul.idealness()))
+
+                # Check Pings                
+                simul = gamelib.Simulator(self.config, self.turn_state, self.storage)
+
+                simul.game_state.game_map.copy_pathing(base_simul.game_state.game_map.pathfinding_map)
+                simul.calculated = True
+
+                enemy_info_spawn = [x, y]
+                simul.game_state.attempt_add(PING, enemy_info_spawn, game_state.number_affordable(PING, 1), 1)
+                simul.simulate()
+                attacks.append(gamelib.Possible_Attack(PING, enemy_info_spawn, simul.idealness()))
+
+
+        attacks.sort(key=operator.attrgetter('idealness'), reverse=True)
+
+        for i in range(0, 5):
+            a = attacks[i]
+            unit_type = ""
+            if a.unit_type == "SI":
+                unit_type = "SCRAMBLER"
+            if a.unit_type == "EI":
+                unit_type = "EMP"
+            if a.unit_type == "PI":
+                unit_type = "PING"
+            gamelib.debug_write("Placing {} at {} causes idealness {}".format(unit_type, a.location, a.idealness))
+        
+
+        """
+        for n_simul in range(0, 10000):
+
+            if time.clock() - self.turn_start >= 5:
+                gamelib.debug_write("Completed {} simulations this turn".format(n_simul))
+                gamelib.debug_write("Last idealness: {}".format(last_ideal))
+                self.n_simuls.append(n_simul)
+                break
 
             #simul = gamelib.Simulator(self.config, self.turn_state, self.storage)
             #gamelib.debug_write("Initialization of simulator in {}s".format(time.clock()-start_time))
@@ -330,8 +429,9 @@ class AlgoStrategy(gamelib.AlgoCore):
             simul.game_state.attempt_add(EMP, self.emp_spawn_loc, game_state.number_affordable(EMP), 0)
             enemy_info_spawn = [27-24, 27-10]
             simul.game_state.attempt_add(EMP, enemy_info_spawn, game_state.number_affordable(EMP, 1), 1)
-            sim = simul.simulate
-            self.map = sim()
+            simul.simulate()
+            last_ideal = simul.idealness()
+        """
         #sim()
         #prun sim()
         #timeit.timeit(sim)
@@ -346,6 +446,21 @@ class AlgoStrategy(gamelib.AlgoCore):
         ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
         ps.print_stats()
         gamelib.debug_write(s.getvalue())
+        
+        """
+
+        self.n_simuls.append(time_mid-time_start)
+        self.n_simuls_2.append(time_end-time_mid)
+
+        i=0
+        for n in self.n_simuls:
+            gamelib.debug_write("Time for turn {} is {}".format(i, n))
+            i+=1
+        i=0
+        for n in self.n_simuls_2:
+            gamelib.debug_write("Time for turn {} is {}".format(i, n))
+            i+=1
+        """
 
         #gamelib.debug_write("Maps equal is {}".format())
 
@@ -471,31 +586,6 @@ class AlgoStrategy(gamelib.AlgoCore):
             self.action_phase = True
 
 
-        """
-        if(len(self.enemy_movement_map) <= game_state.turn_number):
-            # Create more slots for enemy movement map
-            self.enemy_movement_map.append([])
-            for x in range(0, self.ARENA_SIZE):
-                self.enemy_movement_map.append([])
-                for _ in range(0, self.ARENA_SIZE):
-                    self.enemy_movement_map[x].append(0)
-            
-            # Create another array for spawn locations
-            for unit in game_state.units:
-                if(unit not in self.enemy_spawn_locs and unit.player_index == 1 and not unit.stationary):
-                    self.enemy_spawn_locs.append([unit])
-
-        if(len(self.enemy_movement_path) <= game_state.turn_number):
-            # Create more slots for enemy movement path
-            self.enemy_movement_path.append([])
-
-        self.enemy_movement_path[game_state.turn_number].append([])
-        for unit in game_state.units:
-            if not [unit.x, unit.y] in self.enemy_movement_path[game_state.turn_number][len(self.enemy_movement_path[game_state.turn_number])-1]:
-                self.enemy_movement_path[game_state.turn_number].append([unit.x, unit.y])
-            for loc in game_state.game_map.get_locations_in_range([unit.x, unit.y], unit.range):
-                self.enemy_movement_map[game_state.turn_number][loc[0]][loc[1]] += 1
-        """
             
 class Build:
     def __init__(self, unit_type, loc, probability):
